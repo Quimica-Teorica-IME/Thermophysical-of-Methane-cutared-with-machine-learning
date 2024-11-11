@@ -1,0 +1,18 @@
+Liquid Phase - NN_withoutgridsearch
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,15.0%,14.355,3215.167,56.702,0.051
+Exp x NIST,1.0%,4.215,2820.264,53.106,0.167
+NIST x Model,15.0%,10.471,256.405,16.013,0.065
+
+Vapor Phase - NN_withoutgridsearch
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,51.0%,41.724,20880.052,144.499,-0.043
+Exp x NIST,2.0%,18.556,17686.113,132.989,0.117
+NIST x Model,50.0%,24.189,1611.943,40.149,-0.460
+
+Supercritical Phase - NN_withoutgridsearch
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,45.0%,36.733,5478.293,74.015,-0.153
+Exp x NIST,4.0%,2.389,32.386,5.691,0.993
+NIST x Model,42.0%,35.748,5329.379,73.003,-0.158
+

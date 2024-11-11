@@ -1,0 +1,19 @@
+Decision tree to predict physical states based on temperature and pressure inputs.
+Number of data: 4991983
+Number of train data: 3494388
+Number of test data: 1497595
+Accuracy of Decision Tree model: 99.998%              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85252
+           1       1.00      1.00      1.00      7157
+           2       1.00      1.00      1.00   1405186
+
+    accuracy                           1.00   1497595
+   macro avg       1.00      1.00      1.00   1497595
+weighted avg       1.00      1.00      1.00   1497595
+
+
+ > Decision Tree Evaluation <
+Metrics for Decision Tree:
+RMSE: 0.004834
+R2: 0.999893

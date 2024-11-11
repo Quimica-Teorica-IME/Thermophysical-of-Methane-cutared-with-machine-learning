@@ -1,0 +1,18 @@
+Liquid Phase - NeuralNetwork
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,22.0%,18.196,3480.677,58.997,-0.027
+Exp x NIST,1.0%,4.215,2820.264,53.106,0.167
+NIST x Model,21.0%,14.314,495.543,22.261,-0.806
+
+Vapor Phase - NeuralNetwork
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,55.0%,42.685,20222.899,142.207,-0.010
+Exp x NIST,2.0%,18.556,17686.113,132.989,0.117
+NIST x Model,54.0%,25.156,1457.836,38.182,-0.320
+
+Supercritical Phase - NeuralNetwork
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,47.0%,37.548,5550.697,74.503,-0.168
+Exp x NIST,4.0%,2.389,32.386,5.691,0.993
+NIST x Model,43.0%,36.184,5384.225,73.377,-0.170
+

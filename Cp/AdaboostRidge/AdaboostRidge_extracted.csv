@@ -1,0 +1,17 @@
+Liquid Phase - AdaboostRidge
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,12.0%,12.159,3146.831,56.097,0.071
+Exp x NIST,1.0%,4.215,2820.264,53.106,0.167
+NIST x Model, 12.0%, 8.336, 159.911, 12.646, 0.417
+
+Vapor Phase - AdaboostRidge
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,98.0%,61.608,20114.037,141.824,-0.005
+Exp x NIST,2.0%,18.556,17686.113,132.989,0.117
+NIST x Model, 96.0%, 44.583, 2986.459, 54.648, -1.704
+
+Supercritical Phase - AdaboostRidge
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,52.0%,35.344,3855.217,62.090,0.189
+Exp x NIST,4.0%,2.389,32.386,5.691,0.993
+NIST x Model, 52.0%, 35.455, 3861.795, 62.143, 0.161
