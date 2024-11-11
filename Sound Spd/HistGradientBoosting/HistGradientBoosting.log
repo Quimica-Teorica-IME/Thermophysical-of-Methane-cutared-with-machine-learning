@@ -1,0 +1,133 @@
+
+Number of matched data between NIST and Experimental: 897
+Number of missing data between NIST and Experimental: 19
+Number of data labeled with 'undefined': 16
+Number of data points in Liquid state: 385Number of data points in Vapor state: 289Number of data points in Supercritical state: 223
+
+>>> LIQUID PHASE <<<
+
+Best Hyperparameters for liquid state for HistGradientBoosting: {'l2_regularization': 0.5, 'learning_rate': 0.1, 'max_bins': 255, 'max_depth': 7, 'max_iter': 300, 'max_leaf_nodes': 31, 'min_samples_leaf': 20}.
+
+ > Train data <
+Metrics for liquid:
+MAPE: 6.0%
+MAE: 36.598469
+MSE: 6429.526351
+RMSE: 80.184327
+R2: 0.960434
+
+ > Test data <
+Metrics for liquid:
+MAPE: 9.0%
+MAE: 60.155595
+MSE: 13093.69472
+RMSE: 114.427683
+R2: 0.928729
+>>> Comparison: Liquid <<<
+
+Metrics for liquid - Exp x NIST:
+MAPE: 6.0%
+MAE: 25.674421
+MSE: 11763.196378
+RMSE: 108.45827
+R2: 0.929654
+
+Metrics for liquid - Exp x Model:
+MAPE: 9.0%
+MAE: 53.368489
+MSE: 14492.585407
+RMSE: 120.385154
+R2: 0.913331
+
+Metrics for liquid - NIST x Model:
+MAPE: 9.0%
+MAE: 52.543253
+MSE: 13820.963813
+RMSE: 117.562595
+R2: 0.915608
+
+
+>>> VAPOR PHASE <<<
+
+Best Hyperparameters for vapor state for HistGradientBoosting: {'l2_regularization': 0.1, 'learning_rate': 0.05, 'max_bins': 255, 'max_depth': 7, 'max_iter': 100, 'max_leaf_nodes': 31, 'min_samples_leaf': 20}.
+
+ > Train data <
+Metrics for vapor:
+MAPE: 13.0%
+MAE: 56.814815
+MSE: 14289.022201
+RMSE: 119.536698
+R2: 0.69008
+
+ > Test data <
+Metrics for vapor:
+MAPE: 13.0%
+MAE: 50.34539
+MSE: 9721.853718
+RMSE: 98.599461
+R2: 0.707084
+>>> Comparison: Vapor <<<
+
+Metrics for vapor - Exp x NIST:
+MAPE: 21.0%
+MAE: 140.144668
+MSE: 65033.990522
+RMSE: 255.017628
+R2: -0.494158
+
+Metrics for vapor - Exp x Model:
+MAPE: 15.0%
+MAE: 62.701545
+MSE: 17621.918117
+RMSE: 132.747573
+R2: 0.595136
+
+Metrics for vapor - NIST x Model:
+MAPE: 52.0%
+MAE: 160.188842
+MSE: 60515.659253
+RMSE: 245.999307
+R2: -2.210126
+
+
+>>> SUPERCRITICAL PHASE <<<
+
+Best Hyperparameters for supercritical state for HistGradientBoosting: {'l2_regularization': 0.5, 'learning_rate': 0.1, 'max_bins': 255, 'max_depth': 3, 'max_iter': 300, 'max_leaf_nodes': 31, 'min_samples_leaf': 20}.
+
+ > Train data <
+Metrics for supercritical:
+MAPE: 34.0%
+MAE: 30.928836
+MSE: 3466.910682
+RMSE: 58.880478
+R2: 0.99652
+
+ > Test data <
+Metrics for supercritical:
+MAPE: 7.000000000000001%
+MAE: 57.053742
+MSE: 7985.039178
+RMSE: 89.359046
+R2: 0.992722
+>>> Comparison: Supercritical <<<
+
+Metrics for supercritical - Exp x NIST:
+MAPE: 45.0%
+MAE: 3.993444
+MSE: 971.914496
+RMSE: 31.175543
+R2: 0.999044
+
+Metrics for supercritical - Exp x Model:
+MAPE: 49.0%
+MAE: 31.101099
+MSE: 3356.128067
+RMSE: 57.932099
+R2: 0.9967
+
+Metrics for supercritical - NIST x Model:
+MAPE: 4.0%
+MAE: 29.49968
+MSE: 2439.752035
+RMSE: 49.393846
+R2: 0.99759

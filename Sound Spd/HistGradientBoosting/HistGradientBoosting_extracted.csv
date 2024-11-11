@@ -1,0 +1,18 @@
+Liquid Phase - HistGradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,9.0%,53.368,14492.585,120.385,0.913
+Exp x NIST,6.0%,25.674,11763.196,108.458,0.930
+NIST x Model,9.0%,52.543,13820.964,117.563,0.916
+
+Vapor Phase - HistGradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,15.0%,62.702,17621.918,132.748,0.595
+Exp x NIST,21.0%,140.145,65033.991,255.018,-0.494
+NIST x Model,52.0%,160.189,60515.659,245.999,-2.210
+
+Supercritical Phase - HistGradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,49.0%,31.101,3356.128,57.932,0.997
+Exp x NIST,45.0%,3.993,971.914,31.176,0.999
+NIST x Model,4.0%,29.500,2439.752,49.394,0.998
+

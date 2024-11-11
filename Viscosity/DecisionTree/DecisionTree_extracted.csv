@@ -1,0 +1,18 @@
+Liquid Phase - DecisionTree
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,14.0%,6.633,405.098,20.127,0.902
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,23.0%,22.599,2046.324,45.236,0.305
+
+Vapor Phase - DecisionTree
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,3.0%,1.041,72.218,8.498,0.060
+Exp x NIST,2.0%,0.870,78.004,8.832,-0.016
+NIST x Model,7.0%,0.630,11.976,3.461,-0.234
+
+Supercritical Phase - DecisionTree
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,5.0%,1.197,18.150,4.260,0.893
+Exp x NIST,15.0%,2.229,79.406,8.911,0.534
+NIST x Model,8.0%,2.865,85.319,9.237,0.592
+

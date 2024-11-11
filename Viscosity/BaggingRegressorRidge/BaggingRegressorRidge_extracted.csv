@@ -1,0 +1,18 @@
+Liquid Phase - BaggingRegressorRidge
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,39.0%,25.737,1318.966,36.318,0.682
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,21.0%,19.165,700.412,26.465,0.762
+
+Vapor Phase - BaggingRegressorRidge
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,17.0%,2.568,78.632,8.867,-0.024
+Exp x NIST,2.0%,0.870,78.004,8.832,-0.016
+NIST x Model,18.0%,2.049,10.349,3.217,-0.066
+
+Supercritical Phase - BaggingRegressorRidge
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,31.0%,5.947,94.021,9.696,0.448
+Exp x NIST,15.0%,2.229,79.406,8.911,0.534
+NIST x Model,21.0%,4.792,47.090,6.862,0.775
+

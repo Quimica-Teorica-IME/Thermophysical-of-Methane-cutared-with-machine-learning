@@ -1,0 +1,18 @@
+Liquid Phase - RandomForest
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,14.0%,6.648,405.282,20.132,0.902
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,23.0%,22.621,2046.498,45.238,0.305
+
+Vapor Phase - RandomForest
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,4.0%,0.979,46.560,6.824,0.394
+Exp x NIST,2.0%,0.870,78.004,8.832,-0.016
+NIST x Model,15.0%,1.031,46.327,6.806,-3.772
+
+Supercritical Phase - RandomForest
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,5.0%,1.126,12.784,3.575,0.925
+Exp x NIST,15.0%,2.229,79.406,8.911,0.534
+NIST x Model,7.0%,2.527,71.348,8.447,0.659
+

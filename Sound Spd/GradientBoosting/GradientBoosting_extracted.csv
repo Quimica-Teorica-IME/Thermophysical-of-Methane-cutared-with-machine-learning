@@ -1,0 +1,18 @@
+Liquid Phase - GradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,9.0%,39.423,10453.041,102.240,0.937
+Exp x NIST,6.0%,25.674,11763.196,108.458,0.930
+NIST x Model,8.0%,38.429,9782.535,98.907,0.940
+
+Vapor Phase - GradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,14.0%,63.656,20933.526,144.684,0.519
+Exp x NIST,21.0%,140.145,65033.991,255.018,-0.494
+NIST x Model,47.0%,147.630,55377.406,235.324,-1.938
+
+Supercritical Phase - GradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,47.0%,16.152,1399.825,37.414,0.999
+Exp x NIST,45.0%,3.993,971.914,31.176,0.999
+NIST x Model,2.0%,14.617,471.024,21.703,1.000
+

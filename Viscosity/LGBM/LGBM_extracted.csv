@@ -1,0 +1,18 @@
+Liquid Phase - LGBM
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,30.0%,18.404,842.727,29.030,0.797
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,25.0%,24.103,1297.687,36.023,0.559
+
+Vapor Phase - LGBM
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,12.0%,1.838,76.865,8.767,-0.001
+Exp x NIST,2.0%,0.870,78.004,8.832,-0.016
+NIST x Model,17.0%,1.446,17.642,4.200,-0.817
+
+Supercritical Phase - LGBM
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,11.0%,2.350,26.632,5.161,0.844
+Exp x NIST,15.0%,2.229,79.406,8.911,0.534
+NIST x Model,10.0%,3.075,53.375,7.306,0.745
+

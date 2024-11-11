@@ -1,0 +1,64 @@
+T (K),P (MPa),Joule-Thomson (K/MPa),DOI
+293.15,0.000,4.000,https://doi.org/10.1021/ie50351a021
+293.15,1.724,4.200,https://doi.org/10.1021/ie50351a022
+293.15,3.447,4.200,https://doi.org/10.1021/ie50351a023
+293.15,5.171,4.050,https://doi.org/10.1021/ie50351a024
+293.15,6.895,3.850,https://doi.org/10.1021/ie50351a025
+293.15,8.618,3.570,https://doi.org/10.1021/ie50351a026
+293.15,10.342,3.280,https://doi.org/10.1021/ie50351a027
+310.93,0.000,3.550,https://doi.org/10.1021/ie50351a028
+310.93,1.724,3.700,https://doi.org/10.1021/ie50351a029
+310.93,3.447,3.710,https://doi.org/10.1021/ie50351a030
+310.93,5.171,3.610,https://doi.org/10.1021/ie50351a031
+310.93,6.895,3.420,https://doi.org/10.1021/ie50351a032
+310.93,8.618,3.180,https://doi.org/10.1021/ie50351a033
+310.93,10.342,2.910,https://doi.org/10.1021/ie50351a034
+327.15,0.000,3.150,https://doi.org/10.1021/ie50351a035
+327.15,1.724,3.290,https://doi.org/10.1021/ie50351a036
+327.15,3.447,3.300,https://doi.org/10.1021/ie50351a037
+327.15,5.171,3.210,https://doi.org/10.1021/ie50351a038
+327.15,6.895,3.030,https://doi.org/10.1021/ie50351a039
+327.15,8.618,2.810,https://doi.org/10.1021/ie50351a040
+327.15,10.342,2.550,https://doi.org/10.1021/ie50351a041
+342.15,0.000,2.800,https://doi.org/10.1021/ie50351a042
+342.15,1.724,2.950,https://doi.org/10.1021/ie50351a043
+342.15,3.447,2.950,https://doi.org/10.1021/ie50351a044
+342.15,5.171,2.860,https://doi.org/10.1021/ie50351a045
+342.15,6.895,2.690,https://doi.org/10.1021/ie50351a046
+342.15,8.618,2.480,https://doi.org/10.1021/ie50351a047
+342.15,10.342,2.260,https://doi.org/10.1021/ie50351a048
+366.15,0.000,2.500,https://doi.org/10.1021/ie50351a049
+366.15,1.724,2.640,https://doi.org/10.1021/ie50351a050
+366.15,3.447,2.650,https://doi.org/10.1021/ie50351a051
+366.15,5.171,2.560,https://doi.org/10.1021/ie50351a052
+366.15,6.895,2.410,https://doi.org/10.1021/ie50351a053
+366.15,8.618,2.210,https://doi.org/10.1021/ie50351a054
+366.15,10.342,1.990,https://doi.org/10.1021/ie50351a055
+393.15,0.000,2.240,https://doi.org/10.1021/ie50351a056
+393.15,1.724,2.370,https://doi.org/10.1021/ie50351a057
+393.15,3.447,2.380,https://doi.org/10.1021/ie50351a058
+393.15,5.171,2.300,https://doi.org/10.1021/ie50351a059
+393.15,6.895,2.160,https://doi.org/10.1021/ie50351a060
+393.15,8.618,1.970,https://doi.org/10.1021/ie50351a061
+393.15,10.342,1.770,https://doi.org/10.1021/ie50351a062
+311.86,2.025,3.80,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+311.86,3.040,3.85,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+311.86,4.055,3.92,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+311.86,5.066,3.96,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+311.86,6.078,4.01,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+311.86,7.089,4.03,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+311.86,8.102,4.06,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+268,2.025,5.25,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+268,3.040,5.42,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+268,4.055,5.58,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+268,5.066,5.72,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+268,6.078,5.84,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+268,7.089,5.97,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+268,8.102,6.05,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+248.54,2.025,6.17,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+248.54,3.040,6.50,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+248.54,4.055,6.75,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+248.54,5.066,6.98,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+248.54,6.078,7.15,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+248.54,7.089,7.32,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
+248.54,8.102,7.45,R. Ayber- VDI-Forschgsheft 511 1 (1965)  
