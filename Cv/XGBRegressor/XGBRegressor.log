@@ -1,0 +1,140 @@
+Number of matched data between NIST and Experimental: 315
+Number of missing data between NIST and Experimental: 1
+
+>>> LIQUID PHASE <<<
+
+Best Hyperparameters for liquid state for Adaboost with Ridge: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 4, 'min_child_weight': 5, 'n_estimators': 50, 'random_state': 42, 'subsample': 0.6}.
+
+ > Train data <
+Metrics for liquid phase:
+MAPE: 1.0%
+MAE: 0.355763
+MSE: 0.684188
+RMSE: 0.827157
+R2: 0.832702
+
+ > Test data <
+Metrics for liquid phase:
+MAPE: 3.0%
+MAE: 0.766075
+MSE: 4.54388
+RMSE: 2.131638
+R2: 0.387089
+
+
+>>> VAPOR PHASE <<<
+
+Best Hyperparameters for vapor state for Adaboost with Decision Ridge: {'colsample_bytree': 0.6, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 50, 'random_state': 42, 'subsample': 0.6}.
+
+ > Train data <
+Metrics for vapor phase:
+MAPE: 12.0%
+MAE: 3.251111
+MSE: 13.441356
+RMSE: 3.666245
+R2: -0.0
+
+ > Test data <
+Metrics for vapor phase:
+MAPE: 13.0%
+MAE: 3.093334
+MSE: 9.568713
+RMSE: 3.093334
+R2: nan
+
+
+>>> SUPERCRITICAL PHASE <<<
+
+Best Hyperparameters for supercritical state for Adaboost with Ridge: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 100, 'random_state': 42, 'subsample': 0.6}.
+
+ > Train data <
+Metrics for supercritical phase:
+MAPE: 1.0%
+MAE: 0.470457
+MSE: 1.71417
+RMSE: 1.309263
+R2: 0.785039
+
+ > Test data <
+Metrics for supercritical phase:
+MAPE: 1.0%
+MAE: 0.450262
+MSE: 0.381277
+RMSE: 0.617476
+R2: 0.87923
+
+
+Below metrics encompass all data.
+>>> Liquid <<<
+
+Metrics for liquid (ExpxNIST) phase:
+MAPE: 2.0%
+MAE: 0.445519
+MSE: 1.814698
+RMSE: 1.347107
+R2: 0.621723
+
+Metrics for liquid (ExpxModel) phase:
+MAPE: 2.0%
+MAE: 0.682483
+MSE: 2.288869
+RMSE: 1.512901
+R2: 0.522881
+>>> Vapor <<<
+
+Metrics for vapor (ExpxNIST) phase:
+MAPE: 3.0%
+MAE: 0.661875
+MSE: 0.655558
+RMSE: 0.809666
+R2: 0.944796
+
+Metrics for vapor (ExpxModel) phase:
+MAPE: 14.000000000000002%
+MAE: 3.766667
+MSE: 21.11138
+RMSE: 4.594712
+R2: -0.777778
+>>> Supercritical <<<
+
+Metrics for supercritical (ExpxNIST) phase:
+MAPE: 1.0%
+MAE: 0.483137
+MSE: 1.000475
+RMSE: 1.000237
+R2: 0.857918
+
+Metrics for supercritical (ExpxModel) phase:
+MAPE: 2.0%
+MAE: 0.693706
+MSE: 2.795858
+RMSE: 1.672082
+R2: 0.602947
+
+
+Below metrics encompass all data.
+	Comparison NIST x Model
+>>> Liquid <<<
+
+Metrics for liquid (NISTxModel) phase:
+MAPE: 2.0%
+MAE: 0.532018
+MSE: 0.49655
+RMSE: 0.704663
+R2: 0.779555
+>>> Vapor <<<
+
+Metrics for vapor (NISTxModel) phase:
+MAPE: 11.0%
+MAE: 3.152192
+MSE: 16.19547
+RMSE: 4.02436
+R2: -0.980982
+>>> Supercritical <<<
+
+Metrics for supercritical (NISTxModel) phase:
+MAPE: 2.0%
+MAE: 0.664121
+MSE: 1.484496
+RMSE: 1.218399
+R2: 0.661044

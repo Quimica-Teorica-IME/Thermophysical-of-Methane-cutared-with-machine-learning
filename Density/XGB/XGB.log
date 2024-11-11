@@ -1,0 +1,133 @@
+
+Number of matched data between NIST and Experimental: 1375
+Number of missing data between NIST and Experimental: 3
+Number of data labeled with 'undefined': 0
+Number of data points in Liquid state: 503Number of data points in Vapor state: 135Number of data points in Supercritical state: 737
+
+>>> LIQUID PHASE <<<
+
+Best Hyperparameters for liquid state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 50, 'random_state': 42, 'subsample': 0.6}.
+
+ > Train data <
+Metrics for liquid:
+MAPE: 6.0%
+MAE: 11.305034
+MSE: 591.595916
+RMSE: 24.322745
+R2: 0.832296
+
+ > Test data <
+Metrics for liquid:
+MAPE: 13.0%
+MAE: 16.462025
+MSE: 1242.382498
+RMSE: 35.247447
+R2: 0.733808
+>>> Comparison: Liquid <<<
+
+Metrics for liquid - Exp x NIST:
+MAPE: 6.0%
+MAE: 4.122365
+MSE: 695.777952
+RMSE: 26.377603
+R2: 0.814818
+
+Metrics for liquid - Exp x Model:
+MAPE: 8.0%
+MAE: 14.357892
+MSE: 918.411034
+RMSE: 30.305297
+R2: 0.755564
+
+Metrics for liquid - NIST x Model:
+MAPE: 4.0%
+MAE: 12.216197
+MSE: 411.264639
+RMSE: 20.279661
+R2: 0.870089
+
+
+>>> VAPOR PHASE <<<
+
+Best Hyperparameters for vapor state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 50, 'random_state': 42, 'subsample': 0.6}.
+
+ > Train data <
+Metrics for vapor:
+MAPE: 59.0%
+MAE: 7.721839
+MSE: 299.408074
+RMSE: 17.303412
+R2: 0.793148
+
+ > Test data <
+Metrics for vapor:
+MAPE: 85.0%
+MAE: 9.274144
+MSE: 415.6954
+RMSE: 20.38861
+R2: 0.725956
+>>> Comparison: Vapor <<<
+
+Metrics for vapor - Exp x NIST:
+MAPE: 3.0%
+MAE: 3.988368
+MSE: 489.328457
+RMSE: 22.12077
+R2: 0.665185
+
+Metrics for vapor - Exp x Model:
+MAPE: 84.0%
+MAE: 11.354131
+MSE: 546.316588
+RMSE: 23.373416
+R2: 0.626192
+
+Metrics for vapor - NIST x Model:
+MAPE: 83.0%
+MAE: 8.664786
+MSE: 205.239392
+RMSE: 14.326179
+R2: 0.720182
+
+
+>>> SUPERCRITICAL PHASE <<<
+
+Best Hyperparameters for supercritical state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 100, 'random_state': 42, 'subsample': 0.8}.
+
+ > Train data <
+Metrics for supercritical:
+MAPE: 14.000000000000002%
+MAE: 16.372084
+MSE: 445.525115
+RMSE: 21.107466
+R2: 0.945866
+
+ > Test data <
+Metrics for supercritical:
+MAPE: 13.0%
+MAE: 17.70027
+MSE: 645.572777
+RMSE: 25.408124
+R2: 0.923621
+>>> Comparison: Supercritical <<<
+
+Metrics for supercritical - Exp x NIST:
+MAPE: 1.0%
+MAE: 1.812871
+MSE: 106.597344
+RMSE: 10.324599
+R2: 0.987201
+
+Metrics for supercritical - Exp x Model:
+MAPE: 16.0%
+MAE: 19.754077
+MSE: 672.769212
+RMSE: 25.937795
+R2: 0.919221
+
+Metrics for supercritical - NIST x Model:
+MAPE: 16.0%
+MAE: 19.111051
+MSE: 599.615027
+RMSE: 24.487038
+R2: 0.927585

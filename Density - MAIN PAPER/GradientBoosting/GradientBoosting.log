@@ -1,0 +1,47 @@
+
+Number of matched data between NIST and Experimental: 1375
+Number of missing data between NIST and Experimental: 3
+Number of data labeled with 'undefined': 0
+Number of data points in Liquid state: 503Number of data points in Vapor state: 135Number of data points in Supercritical state: 737
+
+>>> LIQUID PHASE <<<
+
+Best Hyperparameters for liquid state for GradientBoosting: {'learning_rate': 0.1, 'loss': 'huber', 'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 3, 'n_estimators': 50, 'random_state': 42}.
+
+ > Train data <
+Metrics for liquid:
+MAPE: 3.0%
+MAE: 3.100087
+MSE: 378.484629
+RMSE: 19.454681
+R2: 0.892708
+
+ > Test data <
+Metrics for liquid:
+MAPE: 12.0%
+MAE: 12.03037
+MSE: 1467.254114
+RMSE: 38.304753
+R2: 0.685627
+>>> Comparison: Liquid <<<
+
+Metrics for liquid - Exp x NIST:
+MAPE: 6.0%
+MAE: 4.122365
+MSE: 695.777952
+RMSE: 26.377603
+R2: 0.814818
+
+Metrics for liquid - Exp x Model:
+MAPE: 6.0%
+MAE: 7.268218
+MSE: 773.877993
+RMSE: 27.818663
+R2: 0.794032
+
+Metrics for liquid - NIST x Model:
+MAPE: 1.0%
+MAE: 4.508276
+MSE: 124.333786
+RMSE: 11.150506
+R2: 0.960725

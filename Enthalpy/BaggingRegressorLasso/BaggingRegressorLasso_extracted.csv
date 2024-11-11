@@ -1,0 +1,18 @@
+Liquid Phase - BaggingRegressorLasso
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,377864331591738.0%,0.159,0.115,0.338,0.960
+Exp x NIST,5145114807847795.0%,0.590,0.364,0.603,0.875
+NIST x Model,256.0%,0.533,0.304,0.551,0.898
+
+Vapor Phase - BaggingRegressorLasso
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,67.0%,1.035,4.627,2.151,0.072
+Exp x NIST,71.0%,0.841,4.688,2.165,0.060
+NIST x Model,9.0%,0.753,1.019,1.009,0.632
+
+Supercritical Phase - BaggingRegressorLasso
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,85.0%,2.580,10.479,3.237,0.060
+Exp x NIST,122.0%,1.683,16.721,4.089,-0.500
+NIST x Model,24.0%,2.328,8.075,2.842,-0.203
+
