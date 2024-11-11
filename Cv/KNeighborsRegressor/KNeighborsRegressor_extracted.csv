@@ -1,0 +1,18 @@
+Liquid Phase - KNeighborsRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+liquid (ExpxModel),1.0%,0.313,0.966,0.983,0.799
+liquid (ExpxNIST),2.0%,0.446,1.815,1.347,0.622
+liquid (NISTxModel),1.0%,0.386,0.398,0.631,0.823
+
+Vapor Phase - KNeighborsRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+vapor (ExpxModel),14.0%,3.767,21.111,4.595,-0.778
+vapor (ExpxNIST),3.0%,0.662,0.656,0.810,0.945
+vapor (NISTxModel),11.0%,3.152,16.195,4.024,-0.981
+
+Supercritical Phase - KNeighborsRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+supercritical (ExpxModel),1.0%,0.495,2.594,1.611,0.632
+supercritical (ExpxNIST),1.0%,0.483,1.000,1.000,0.858
+supercritical (NISTxModel),2.0%,0.668,1.501,1.225,0.657
+

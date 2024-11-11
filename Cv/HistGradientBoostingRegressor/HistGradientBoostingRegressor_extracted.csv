@@ -1,0 +1,18 @@
+Liquid Phase - HistGradientBoostingRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+liquid (ExpxModel),2.0%,0.593,2.081,1.443,0.566
+liquid (ExpxNIST),2.0%,0.446,1.815,1.347,0.622
+liquid (NISTxModel),1.0%,0.420,0.303,0.551,0.865
+
+Vapor Phase - HistGradientBoostingRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+vapor (ExpxModel),14.0%,3.767,21.111,4.595,-0.778
+vapor (ExpxNIST),3.0%,0.662,0.656,0.810,0.945
+vapor (NISTxModel),11.0%,3.152,16.195,4.024,-0.981
+
+Supercritical Phase - HistGradientBoostingRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+supercritical (ExpxModel),2.0%,0.578,2.498,1.580,0.645
+supercritical (ExpxNIST),1.0%,0.483,1.000,1.000,0.858
+supercritical (NISTxModel),2.0%,0.671,1.435,1.198,0.672
+

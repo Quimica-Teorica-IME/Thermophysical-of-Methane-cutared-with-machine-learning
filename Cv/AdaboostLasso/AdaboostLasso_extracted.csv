@@ -1,0 +1,15 @@
+Liquid Phase - AdaboostLasso
+Comparison,MAPE,MAE,MSE,RMSE,R2
+liquid (ExpxModel),2.0%,0.647,2.366,1.538,0.507
+liquid (ExpxNIST),2.0%,0.446,1.815,1.347,0.622
+
+Vapor Phase - AdaboostLasso
+Comparison,MAPE,MAE,MSE,RMSE,R2
+vapor (ExpxModel),24.0%,6.418,48.935,6.995,-3.121
+vapor (ExpxNIST),3.0%,0.662,0.656,0.810,0.945
+
+Supercritical Phase - AdaboostLasso
+Comparison,MAPE,MAE,MSE,RMSE,R2
+supercritical (ExpxModel),4.0%,1.452,5.118,2.262,0.273
+supercritical (ExpxNIST),1.0%,0.483,1.000,1.000,0.858
+
