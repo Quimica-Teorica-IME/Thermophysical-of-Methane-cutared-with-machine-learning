@@ -1,0 +1,134 @@
+
+Number of matched data between NIST and Experimental: 1376
+Number of missing data between NIST and Experimental: 2
+Number of data labeled with 'undefined': 0
+Number of data points in Liquid state: 503Number of data points in Vapor state: 135Number of data points in Supercritical state: 738
+
+>>> LIQUID PHASE <<<
+
+Best Hyperparameters for liquid state for Neural Network: {'activation': 'relu', 'alpha': 0.001, 'batch_size': 32, 'hidden_layer_sizes': (1024, 512, 256, 128), 'learning_rate_init': 0.01, 'max_iter': 300, 'solver': 'adam'}.
+
+ > Train data <
+Metrics for liquid:
+MAPE: 89.0%
+MAE: 0.002519
+MSE: 1.1e-05
+RMSE: 0.003268
+R2: -3.262181
+
+ > Test data <
+Metrics for liquid:
+MAPE: 90.0%
+MAE: 0.00276
+MSE: 1.8e-05
+RMSE: 0.004296
+R2: -1.172382
+>>> Comparison: Liquid <<<
+
+Metrics for liquid - Exp x NIST:
+MAPE: 1.0%
+MAE: 0.000155
+MSE: 3e-06
+RMSE: 0.001849
+R2: 0.079452
+
+Metrics for liquid - Exp x Model:
+MAPE: 208.0%
+MAE: 0.005536
+MSE: 0.000112
+RMSE: 0.010586
+R2: -29.171189
+
+Metrics for liquid - NIST x Model:
+MAPE: 210.0%
+MAE: 0.005485
+MSE: 0.00011
+RMSE: 0.010499
+R2: -299.068081
+
+
+>>> VAPOR PHASE <<<
+
+Best Hyperparameters for vapor state for Neural Network: {'activation': 'relu', 'alpha': 0.01, 'batch_size': 64, 'hidden_layer_sizes': (512, 256, 128), 'learning_rate_init': 0.001, 'max_iter': 300, 'solver': 'adam'}.
+
+ > Train data <
+Metrics for vapor:
+MAPE: 849.0%
+MAE: 0.278343
+MSE: 0.195579
+RMSE: 0.442243
+R2: 0.014056
+
+ > Test data <
+Metrics for vapor:
+MAPE: 817.0%
+MAE: 0.211412
+MSE: 0.065871
+RMSE: 0.256653
+R2: -0.847381
+>>> Comparison: Vapor <<<
+
+Metrics for vapor - Exp x NIST:
+MAPE: 12.0%
+MAE: 0.001461
+MSE: 8.9e-05
+RMSE: 0.009447
+R2: 0.999466
+
+Metrics for vapor - Exp x Model:
+MAPE: 888.0000000000001%
+MAE: 0.355346
+MSE: 0.249442
+RMSE: 0.499442
+R2: -0.493195
+
+Metrics for vapor - NIST x Model:
+MAPE: 834.0%
+MAE: 0.354771
+MSE: 0.249609
+RMSE: 0.499609
+R2: -0.493749
+
+
+
+>>> SUPERCRITICAL PHASE <<<
+
+Best Hyperparameters for supercritical state for Neural Network: {'activation': 'relu', 'alpha': 0.001, 'batch_size': 32, 'hidden_layer_sizes': (1024, 512, 256, 128), 'learning_rate_init': 0.01, 'max_iter': 100, 'solver': 'adam'}.
+
+ > Train data <
+Metrics for supercritical:
+MAPE: 65.0%
+MAE: 0.003742
+MSE: 2.2e-05
+RMSE: 0.00467
+R2: 0.337673
+
+ > Test data <
+Metrics for supercritical:
+MAPE: 66.0%
+MAE: 0.003758
+MSE: 2.1e-05
+RMSE: 0.004632
+R2: 0.505467
+>>> Comparison: Supercritical <<<
+
+Metrics for supercritical - Exp x NIST:
+MAPE: 1.0%
+MAE: 0.000119
+MSE: 1e-06
+RMSE: 0.000779
+R2: 0.982686
+
+Metrics for supercritical - Exp x Model:
+MAPE: 194.0%
+MAE: 0.010544
+MSE: 0.001134
+RMSE: 0.033674
+R2: -31.366479
+
+Metrics for supercritical - NIST x Model:
+MAPE: 194.0%
+MAE: 0.010505
+MSE: 0.001134
+RMSE: 0.033674
+R2: -31.379022

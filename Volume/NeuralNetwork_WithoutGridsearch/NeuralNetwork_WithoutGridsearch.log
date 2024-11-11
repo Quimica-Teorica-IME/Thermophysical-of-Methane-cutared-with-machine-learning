@@ -1,0 +1,127 @@
+
+Number of matched data between NIST and Experimental: 1376
+Number of missing data between NIST and Experimental: 2
+Number of data labeled with 'undefined': 0
+Number of data points in Liquid state: 503Number of data points in Vapor state: 135Number of data points in Supercritical state: 738
+
+>>> LIQUID PHASE <<<
+
+ > Train data <
+Metrics for liquid:
+MAPE: 1639.9999999999998%
+MAE: 0.045853
+MSE: 0.002531
+RMSE: 0.05031
+R2: -1008.973822
+
+ > Test data <
+Metrics for liquid:
+MAPE: 1539.0%
+MAE: 0.043563
+MSE: 0.002363
+RMSE: 0.04861
+R2: -277.155327
+>>> Comparison: Liquid <<<
+
+Metrics for liquid - Exp x NIST:
+MAPE: 1.0%
+MAE: 0.000155
+MSE: 3e-06
+RMSE: 0.001849
+R2: 0.079452
+
+Metrics for liquid - Exp x Model:
+MAPE: 988.0000000000001%
+MAE: 0.02597
+MSE: 0.001318
+RMSE: 0.036307
+R2: -353.879501
+
+Metrics for liquid - NIST x Model:
+MAPE: 996.0000000000001%
+MAE: 0.025951
+MSE: 0.001318
+RMSE: 0.036308
+R2: -3587.653767
+
+
+>>> VAPOR PHASE <<<
+
+ > Train data <
+Metrics for vapor:
+MAPE: 375.0%
+MAE: 0.091955
+MSE: 0.014333
+RMSE: 0.11972
+R2: 0.927745
+
+ > Test data <
+Metrics for vapor:
+MAPE: 299.0%
+MAE: 0.063499
+MSE: 0.006635
+RMSE: 0.081456
+R2: 0.813913
+>>> Comparison: Vapor <<<
+
+Metrics for vapor - Exp x NIST:
+MAPE: 12.0%
+MAE: 0.001461
+MSE: 8.9e-05
+RMSE: 0.009447
+R2: 0.999466
+
+Metrics for vapor - Exp x Model:
+MAPE: 861.0%
+MAE: 0.324262
+MSE: 0.260555
+RMSE: 0.510446
+R2: -0.559717
+
+Metrics for vapor - NIST x Model:
+MAPE: 797.0%
+MAE: 0.323722
+MSE: 0.260559
+RMSE: 0.51045
+R2: -0.559276
+
+
+>>> SUPERCRITICAL PHASE <<<
+
+ > Train data <
+Metrics for supercritical:
+MAPE: 169.0%
+MAE: 0.00803
+MSE: 0.000107
+RMSE: 0.010352
+R2: -2.254301
+
+ > Test data <
+Metrics for supercritical:
+MAPE: 157.0%
+MAE: 0.007653
+MSE: 9.5e-05
+RMSE: 0.009758
+R2: -1.19454
+>>> Comparison: Supercritical <<<
+
+Metrics for supercritical - Exp x NIST:
+MAPE: 1.0%
+MAE: 0.000119
+MSE: 1e-06
+RMSE: 0.000779
+R2: 0.982686
+
+Metrics for supercritical - Exp x Model:
+MAPE: 836.9999999999999%
+MAE: 0.045028
+MSE: 0.004164
+RMSE: 0.064525
+R2: -117.843254
+
+Metrics for supercritical - NIST x Model:
+MAPE: 834.0%
+MAE: 0.045094
+MSE: 0.004167
+RMSE: 0.064551
+R2: -117.983593

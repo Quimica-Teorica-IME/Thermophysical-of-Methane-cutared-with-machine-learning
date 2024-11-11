@@ -1,0 +1,18 @@
+Liquid Phase - ExtraTreesRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,7.0%,0.000,0.000,0.002,0.057
+Exp x NIST,1.0%,0.000,0.000,0.002,0.079
+NIST x Model,7.0%,0.000,0.000,0.000,0.370
+
+Vapor Phase - ExtraTreesRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,18.0%,0.008,0.001,0.034,0.993
+Exp x NIST,12.0%,0.001,0.000,0.009,0.999
+NIST x Model,8.0%,0.007,0.001,0.032,0.994
+
+Supercritical Phase - ExtraTreesRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,4.0%,0.000,0.000,0.001,0.971
+Exp x NIST,1.0%,0.000,0.000,0.001,0.983
+NIST x Model,3.0%,0.000,0.000,0.001,0.988
+
