@@ -1,0 +1,156 @@
+
+Number of matched data between NIST and Experimental: 897
+Number of missing data between NIST and Experimental: 19
+Number of data labeled with 'undefined': 16
+Number of data points in Liquid state: 385
+Number of data points in Vapor state: 289
+Number of data points in Supercritical state: 223
+Data size in liquid phase (NIST): 385, Corresponding experimental data: 385
+Data size in vapor phase (NIST): 289, Corresponding experimental data: 289
+Data size in supercritical phase (NIST): 223, Corresponding experimental data: 223
+
+>>> LIQUID PHASE <<<
+
+Best Hyperparameters for liquid state for Adaboost with Ridge: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 5, 'min_child_samples': 20, 'n_estimators': 100, 'num_leaves': 31, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'subsample': 0.8}.
+
+ > Train data <
+Metrics for liquid:
+MAPE: 9.0%
+MAE: 56.08123
+MSE: 12665.093688
+RMSE: 112.539298
+R2: 0.922061
+
+ > Test data <
+Metrics for liquid:
+MAPE: 9.0%
+MAE: 53.350415
+MSE: 12000.492891
+RMSE: 109.546761
+R2: 0.93468
+
+*** Cross-Validation Metrics ***
+Liquid Phase - RMSE (mean): 183.16860229124345
+RMSE (std): 143.4612365817334MAE (mean): 123.4077863774626
+MAE (std): 88.8036155268586R² (mean): -6.268981429157769
+R² (std): 15.413194312136056MSE (mean): 54131.8632668878
+MSE (std): 91044.25199959477>>> Comparison: Liquid <<<
+
+Metrics for liquid - Exp x NIST:
+MAPE: 6.0%
+MAE: 25.674421
+MSE: 11763.196378
+RMSE: 108.45827
+R2: 0.929654
+
+Metrics for liquid - Exp x Model:
+MAPE: 19.0%
+MAE: 123.93446
+MSE: 54546.444967
+RMSE: 233.551804
+R2: 0.673801
+
+Metrics for liquid - NIST x Model:
+MAPE: 17.0%
+MAE: 116.528796
+MSE: 50920.587136
+RMSE: 225.655904
+R2: 0.689074
+
+
+>>> VAPOR PHASE <<<
+
+Best Hyperparameters for vapor state for Adaboost with Decision Ridge: {'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 5, 'min_child_samples': 20, 'n_estimators': 100, 'num_leaves': 31, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'subsample': 0.8}.
+
+ > Train data <
+Metrics for vapor:
+MAPE: 14.000000000000002%
+MAE: 59.808736
+MSE: 15358.467436
+RMSE: 123.929284
+R2: 0.666884
+
+ > Test data <
+Metrics for vapor:
+MAPE: 13.0%
+MAE: 52.408654
+MSE: 10375.603412
+RMSE: 101.860706
+R2: 0.687387
+
+*** Cross-Validation Metrics ***
+Vapor Phase - RMSE (mean): 159.15360400961146
+RMSE (std): 132.05249523371197MAE (mean): 122.61022703237936
+MAE (std): 106.93945552671148R² (mean): -13.980487288296805
+R² (std): 23.69785670828015MSE (mean): 42767.73116669774
+MSE (std): 61924.11281272054>>> Comparison: Vapor <<<
+
+Metrics for vapor - Exp x NIST:
+MAPE: 21.0%
+MAE: 140.144668
+MSE: 65033.990522
+RMSE: 255.017628
+R2: -0.494158
+
+Metrics for vapor - Exp x Model:
+MAPE: 25.0%
+MAE: 122.853071
+MSE: 42903.122925
+RMSE: 207.13069
+R2: 0.014299
+
+Metrics for vapor - NIST x Model:
+MAPE: 39.0%
+MAE: 126.152078
+MSE: 42376.236353
+RMSE: 205.854891
+R2: -1.247898
+
+
+>>> SUPERCRITICAL PHASE <<<
+
+Best Hyperparameters for supercritical state for Adaboost with Ridge: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 5, 'min_child_samples': 20, 'n_estimators': 100, 'num_leaves': 31, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'subsample': 0.8}.
+
+ > Train data <
+Metrics for supercritical:
+MAPE: 45.0%
+MAE: 36.369801
+MSE: 4002.678394
+RMSE: 63.266724
+R2: 0.995982
+
+ > Test data <
+Metrics for supercritical:
+MAPE: 7.000000000000001%
+MAE: 57.970271
+MSE: 8078.348533
+RMSE: 89.879634
+R2: 0.992637
+
+*** Cross-Validation Metrics ***
+Supercritical Phase - RMSE (mean): 98.92994290590374
+RMSE (std): 60.446940153483716MAE (mean): 71.7785122980749
+MAE (std): 43.74260731681859R² (mean): -4.09868195792168
+R² (std): 14.18001518673959MSE (mean): 13440.96617728422
+MSE (std): 15569.10496187303>>> Comparison: Supercritical <<<
+
+Metrics for supercritical - Exp x NIST:
+MAPE: 45.0%
+MAE: 3.993444
+MSE: 971.914496
+RMSE: 31.175543
+R2: 0.999044
+
+Metrics for supercritical - Exp x Model:
+MAPE: 50.0%
+MAE: 72.011
+MSE: 13536.843116
+RMSE: 116.34794
+R2: 0.98669
+
+Metrics for supercritical - NIST x Model:
+MAPE: 8.0%
+MAE: 70.269259
+MSE: 12819.215151
+RMSE: 113.221973
+R2: 0.987335

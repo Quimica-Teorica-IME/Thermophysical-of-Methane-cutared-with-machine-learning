@@ -1,0 +1,29 @@
+#!/bin/bash
+##
+## Copyright (C) 2009-2021 VersatusHPC, Inc.
+##
+## partition = queue
+#SBATCH --partition=normal
+##
+## nodes = number of nodes
+#SBATCH --nodes=1
+#SBATCH --nodelist=n01
+##
+## ntasks-per-node = number of cores per node
+#SBATCH --ntasks-per-node=64
+##
+## time = execution time
+#SBATCH --time=720:00:00
+##
+## Job name
+#SBATCH --job-name=H_extratreesregressor_CVLOO
+##
+
+cd /home/mmaximo/ML/Thermophysical/Enthalpy/codes
+
+# Activate Conda and the MachineLearning-env environment
+source ~/.bashrc
+conda init
+conda activate MachineLearning-env
+
+python extratreesregressor_CVLOO.py > extratreesregressor_CVLOO.log 2>&1

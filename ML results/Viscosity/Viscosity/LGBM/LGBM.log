@@ -1,0 +1,156 @@
+
+Number of matched data between NIST and Experimental: 864
+Number of missing data between NIST and Experimental: 246
+Number of data labeled with 'undefined': 141
+Number of data points in Liquid state: 111
+Number of data points in Vapor state: 308
+Number of data points in Supercritical state: 445
+Data size in liquid phase (NIST): 111, Corresponding experimental data: 111
+Data size in vapor phase (NIST): 308, Corresponding experimental data: 308
+Data size in supercritical phase (NIST): 445, Corresponding experimental data: 445
+
+>>> LIQUID PHASE <<<
+
+Best Hyperparameters for liquid state for Adaboost with Ridge: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_samples': 20, 'n_estimators': 100, 'num_leaves': 31, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'subsample': 0.8}.
+
+ > Train data <
+Metrics for liquid:
+MAPE: 26.0%
+MAE: 16.356352
+MSE: 608.064833
+RMSE: 24.658971
+R2: 0.856478
+
+ > Test data <
+Metrics for liquid:
+MAPE: 60.0%
+MAE: 22.779761
+MSE: 1147.704162
+RMSE: 33.877783
+R2: 0.684883
+
+*** Cross-Validation Metrics ***
+Liquid Phase - RMSE (mean): 32.818848533578304
+RMSE (std): 19.247668621894846MAE (mean): 26.607567742293686
+MAE (std): 14.040386841581517R² (mean): -1.5709569027833707
+R² (std): 2.505809089435498MSE (mean): 1447.5495664482307
+MSE (std): 1407.1937104872486>>> Comparison: Liquid <<<
+
+Metrics for liquid - Exp x NIST:
+MAPE: 28.999999999999996%
+MAE: 21.33426
+MSE: 2050.595472
+RMSE: 45.283501
+R2: 0.505588
+
+Metrics for liquid - Exp x Model:
+MAPE: 42.0%
+MAE: 26.619299
+MSE: 1441.714402
+RMSE: 37.969914
+R2: 0.652393
+
+Metrics for liquid - NIST x Model:
+MAPE: 28.999999999999996%
+MAE: 24.668148
+MSE: 1034.968831
+RMSE: 32.170931
+R2: 0.648423
+
+
+>>> VAPOR PHASE <<<
+
+Best Hyperparameters for vapor state for Adaboost with Decision Ridge: {'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'min_child_samples': 20, 'n_estimators': 50, 'num_leaves': 31, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'subsample': 0.8}.
+
+ > Train data <
+Metrics for vapor:
+MAPE: 13.0%
+MAE: 2.005399
+MSE: 83.754134
+RMSE: 9.151728
+R2: 0.116085
+
+ > Test data <
+Metrics for vapor:
+MAPE: 8.0%
+MAE: 0.829968
+MSE: 3.898783
+RMSE: 1.974534
+R2: 0.164784
+
+*** Cross-Validation Metrics ***
+Vapor Phase - RMSE (mean): 3.8297600906667
+RMSE (std): 8.192768083229549MAE (mean): 1.7568522844718988
+MAE (std): 2.9479905304306553R² (mean): -0.5888560205732739
+R² (std): 1.822263228287962MSE (mean): 81.78851121764816
+MSE (std): 236.07283371379677>>> Comparison: Vapor <<<
+
+Metrics for vapor - Exp x NIST:
+MAPE: 2.0%
+MAE: 0.870279
+MSE: 78.003988
+RMSE: 8.831987
+R2: -0.015534
+
+Metrics for vapor - Exp x Model:
+MAPE: 9.0%
+MAE: 1.732985
+MSE: 79.752655
+RMSE: 8.930434
+R2: -0.0383
+
+Metrics for vapor - NIST x Model:
+MAPE: 9.0%
+MAE: 1.065311
+MSE: 8.385106
+RMSE: 2.895705
+R2: 0.136213
+
+
+>>> SUPERCRITICAL PHASE <<<
+
+Best Hyperparameters for supercritical state for Adaboost with Ridge: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 5, 'min_child_samples': 20, 'n_estimators': 100, 'num_leaves': 31, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'subsample': 0.8}.
+
+ > Train data <
+Metrics for supercritical:
+MAPE: 8.0%
+MAE: 1.778631
+MSE: 14.328463
+RMSE: 3.785296
+R2: 0.918689
+
+ > Test data <
+Metrics for supercritical:
+MAPE: 9.0%
+MAE: 2.240857
+MSE: 22.105901
+RMSE: 4.701691
+R2: 0.848879
+
+*** Cross-Validation Metrics ***
+Supercritical Phase - RMSE (mean): 7.1354429123841685
+RMSE (std): 6.722247260509364MAE (mean): 4.330137217067275
+MAE (std): 3.917846707102655R² (mean): -2.157702413414719
+R² (std): 7.530519768505936MSE (mean): 96.10315378731913
+MSE (std): 135.85608599711657>>> Comparison: Supercritical <<<
+
+Metrics for supercritical - Exp x NIST:
+MAPE: 15.0%
+MAE: 2.22894
+MSE: 79.405683
+RMSE: 8.910987
+R2: 0.533763
+
+Metrics for supercritical - Exp x Model:
+MAPE: 20.0%
+MAE: 4.296014
+MSE: 95.114144
+RMSE: 9.752648
+R2: 0.44153
+
+Metrics for supercritical - NIST x Model:
+MAPE: 12.0%
+MAE: 3.669519
+MSE: 71.478405
+RMSE: 8.45449
+R2: 0.658374

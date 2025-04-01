@@ -1,0 +1,156 @@
+
+Number of matched data between NIST and Experimental: 1376
+Number of missing data between NIST and Experimental: 2
+Number of data labeled with 'undefined': 0
+Number of data points in Liquid state: 503
+Number of data points in Vapor state: 135
+Number of data points in Supercritical state: 738
+Data size in liquid phase (NIST): 503, Corresponding experimental data: 503
+Data size in vapor phase (NIST): 135, Corresponding experimental data: 135
+Data size in supercritical phase (NIST): 738, Corresponding experimental data: 738
+
+>>> LIQUID PHASE <<<
+
+Best Hyperparameters for liquid state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.01, 'max_depth': 4, 'min_child_weight': 5, 'n_estimators': 100, 'random_state': 42, 'subsample': 0.6}.
+
+ > Train data <
+Metrics for liquid:
+MAPE: 10.0%
+MAE: 0.000348
+MSE: 2e-06
+RMSE: 0.00144
+R2: 0.173031
+
+ > Test data <
+Metrics for liquid:
+MAPE: 13.0%
+MAE: 0.000627
+MSE: 8e-06
+RMSE: 0.002824
+R2: 0.061424
+
+*** Cross-Validation Metrics ***
+Liquid Phase - RMSE (mean): 0.001216951609002759
+RMSE (std): 0.0015607333206908436MAE (mean): 0.0005394871129117309
+MAE (std): 0.000470879921974952R² (mean): -81.89095768928527
+R² (std): 99.29838166092964MSE (mean): 3.9168597169690715e-06
+MSE (std): 9.892709508764464e-06>>> Comparison: Liquid <<<
+
+Metrics for liquid - Exp x NIST:
+MAPE: 1.0%
+MAE: 0.000155
+MSE: 3e-06
+RMSE: 0.001849
+R2: 0.079452
+
+Metrics for liquid - Exp x Model:
+MAPE: 15.0%
+MAE: 0.000542
+MSE: 4e-06
+RMSE: 0.001991
+R2: -0.067072
+
+Metrics for liquid - NIST x Model:
+MAPE: 15.0%
+MAE: 0.000413
+MSE: 1e-06
+RMSE: 0.000758
+R2: -0.56405
+
+
+>>> VAPOR PHASE <<<
+
+Best Hyperparameters for vapor state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 100, 'random_state': 42, 'subsample': 0.8}.
+
+ > Train data <
+Metrics for vapor:
+MAPE: 64.0%
+MAE: 0.035669
+MSE: 0.006074
+RMSE: 0.077936
+R2: 0.96938
+
+ > Test data <
+Metrics for vapor:
+MAPE: 99.0%
+MAE: 0.051749
+MSE: 0.010161
+RMSE: 0.100801
+R2: 0.715031
+
+*** Cross-Validation Metrics ***
+Vapor Phase - RMSE (mean): 0.21992279031886008
+RMSE (std): 0.3896237315740117MAE (mean): 0.15354569092606463
+MAE (std): 0.31093499496636945R² (mean): -22931483867122.79
+R² (std): 57499817284190.266MSE (mean): 0.20017268590729076
+MSE (std): 0.5397056570403671>>> Comparison: Vapor <<<
+
+Metrics for vapor - Exp x NIST:
+MAPE: 12.0%
+MAE: 0.001461
+MSE: 8.9e-05
+RMSE: 0.009447
+R2: 0.999466
+
+Metrics for vapor - Exp x Model:
+MAPE: 193.0%
+MAE: 0.148959
+MSE: 0.192815
+RMSE: 0.439107
+R2: -0.154215
+
+Metrics for vapor - NIST x Model:
+MAPE: 101.0%
+MAE: 0.148288
+MSE: 0.191045
+RMSE: 0.437087
+R2: -0.14328
+
+
+>>> SUPERCRITICAL PHASE <<<
+
+Best Hyperparameters for supercritical state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 100, 'random_state': 42, 'subsample': 0.8}.
+
+ > Train data <
+Metrics for supercritical:
+MAPE: 28.000000000000004%
+MAE: 0.001684
+MSE: 6e-06
+RMSE: 0.002518
+R2: 0.807521
+
+ > Test data <
+Metrics for supercritical:
+MAPE: 35.0%
+MAE: 0.002219
+MSE: 1.4e-05
+RMSE: 0.003715
+R2: 0.681901
+
+*** Cross-Validation Metrics ***
+Supercritical Phase - RMSE (mean): 0.0036850101080265407
+RMSE (std): 0.001384559897442585MAE (mean): 0.0026567063403762177
+MAE (std): 0.0010012458003601028R² (mean): -8.957767140865325
+R² (std): 16.517313612392726MSE (mean): 1.5496305605864e-05
+MSE (std): 1.0782829639643009e-05>>> Comparison: Supercritical <<<
+
+Metrics for supercritical - Exp x NIST:
+MAPE: 1.0%
+MAE: 0.000119
+MSE: 1e-06
+RMSE: 0.000779
+R2: 0.982686
+
+Metrics for supercritical - Exp x Model:
+MAPE: 43.0%
+MAE: 0.002659
+MSE: 1.6e-05
+RMSE: 0.00394
+R2: 0.557
+
+Metrics for supercritical - NIST x Model:
+MAPE: 43.0%
+MAE: 0.002624
+MSE: 1.5e-05
+RMSE: 0.003911
+R2: 0.56325

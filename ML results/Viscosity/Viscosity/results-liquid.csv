@@ -1,0 +1,126 @@
+ ======== AdaboostLassoCV10 ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,43.0%,29.449,1721.404,41.490,0.585
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,22.0%,19.503,686.788,26.207,0.767
+
+ ======== AdaboostLassoCVLOO ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,38.0%,25.697,1303.809,36.108,0.686
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,21.0%,19.289,701.219,26.481,0.762
+
+ ======== AdaboostRidgeCV10 ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,43.0%,29.417,1719.991,41.473,0.585
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,21.0%,19.499,688.089,26.231,0.766
+
+ ======== AdaboostRidgeCVLOO ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,38.0%,25.684,1303.555,36.105,0.686
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,21.0%,19.296,703.132,26.517,0.761
+
+ ======== BaggingRegressorLassoCV10 ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,42.0%,28.810,1666.728,40.826,0.598
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,21.0%,18.692,633.598,25.171,0.785
+
+ ======== BaggingRegressorLassoCVLOO ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,39.0%,25.752,1319.146,36.320,0.682
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,21.0%,19.160,698.483,26.429,0.763
+
+ ======== BaggingRegressorRidgeCV10 ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,42.0%,28.784,1665.875,40.815,0.598
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,20.0%,18.690,635.359,25.206,0.784
+
+ ======== BaggingRegressorRidgeCVLOO ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,39.0%,25.737,1318.966,36.318,0.682
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,21.0%,19.165,700.412,26.465,0.762
+
+ ======== DecisionTreeCV10 ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,37.0%,21.292,1435.613,37.889,0.654
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,27.0%,24.092,1232.395,35.105,0.581
+
+ ======== DecisionTreeCVLOO ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,14.0%,6.633,405.098,20.127,0.902
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,23.0%,22.599,2046.324,45.236,0.305
+
+ ======== ExtraTreesRegressorCV10 ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,33.0%,17.890,971.999,31.177,0.766
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,22.0%,19.722,802.778,28.333,0.727
+
+ ======== ExtraTreesRegressorCVLOO ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,10.0%,4.925,168.250,12.971,0.959
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,21.0%,20.701,1728.919,41.580,0.413
+
+ ======== GradientBoostingCV10 ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,29.0%,13.531,670.806,25.900,0.838
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,21.0%,19.206,1006.692,31.728,0.658
+
+ ======== GradientBoostingCVLOO ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,12.0%,5.790,338.176,18.390,0.918
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,23.0%,22.389,1980.447,44.502,0.327
+
+ ======== LGBM ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,42.0%,26.619,1441.714,37.970,0.652
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,29.0%,24.668,1034.969,32.171,0.648
+
+ ======== NeuralNetworkCV10 ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,47.0%,33.911,1841.628,42.914,0.556
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,31.0%,30.992,1850.965,43.023,0.371
+
+ ======== NeuralNetworkCVLOO ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,41.0%,26.703,1405.696,37.493,0.661
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,25.0%,23.486,1163.438,34.109,0.605
+
+ ======== RandomForestCV10 ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,34.0%,18.249,895.748,29.929,0.784
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,26.0%,25.278,1349.849,36.740,0.541
+
+ ======== RandomForestCVLOO ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,14.0%,6.648,405.282,20.132,0.902
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,23.0%,22.621,2046.498,45.238,0.305
+
+ ======== XGBCV10 ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,31.0%,14.272,664.346,25.775,0.840
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,28.0%,26.797,1854.556,43.065,0.370
+
+ ======== XGBCVLOO ========
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,23.0%,10.820,381.117,19.522,0.908
+Exp x NIST,29.0%,21.334,2050.595,45.284,0.506
+NIST x Model,26.0%,24.749,1824.836,42.718,0.380
+

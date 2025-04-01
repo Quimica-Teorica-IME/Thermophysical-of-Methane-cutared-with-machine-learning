@@ -1,0 +1,156 @@
+
+Number of matched data between NIST and Experimental: 864
+Number of missing data between NIST and Experimental: 246
+Number of data labeled with 'undefined': 141
+Number of data points in Liquid state: 111
+Number of data points in Vapor state: 308
+Number of data points in Supercritical state: 445
+Data size in liquid phase (NIST): 111, Corresponding experimental data: 111
+Data size in vapor phase (NIST): 308, Corresponding experimental data: 308
+Data size in supercritical phase (NIST): 445, Corresponding experimental data: 445
+
+>>> LIQUID PHASE <<<
+
+Best Hyperparameters for liquid state for Adaboost with Ridge: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_samples': 20, 'n_estimators': 100, 'num_leaves': 31, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'subsample': 0.8}.
+
+ > Train data <
+Metrics for liquid:
+MAPE: 26.0%
+MAE: 16.356352
+MSE: 608.064833
+RMSE: 24.658971
+R2: 0.856478
+
+ > Test data <
+Metrics for liquid:
+MAPE: 60.0%
+MAE: 22.779761
+MSE: 1147.704162
+RMSE: 33.877783
+R2: 0.684883
+
+*** Cross-Validation Metrics ***
+Liquid Phase - RMSE (mean): 16.013675575588223
+RMSE (std): 21.25064613764212MAE (mean): 16.013675575588223
+MAE (std): 21.25064613764212R² (mean): nan
+R² (std): nanMSE (mean): 708.0277667074747
+MSE (std): 2298.4949319485663>>> Comparison: Liquid <<<
+
+Metrics for liquid - Exp x NIST:
+MAPE: 28.999999999999996%
+MAE: 21.33426
+MSE: 2050.595472
+RMSE: 45.283501
+R2: 0.505588
+
+Metrics for liquid - Exp x Model:
+MAPE: 27.0%
+MAE: 16.013676
+MSE: 708.027767
+RMSE: 26.608791
+R2: 0.82929
+
+Metrics for liquid - NIST x Model:
+MAPE: 24.0%
+MAE: 23.671922
+MSE: 1387.346202
+RMSE: 37.247097
+R2: 0.528721
+
+
+>>> VAPOR PHASE <<<
+
+Best Hyperparameters for vapor state for Adaboost with Decision Ridge: {'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'min_child_samples': 20, 'n_estimators': 50, 'num_leaves': 31, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'subsample': 0.8}.
+
+ > Train data <
+Metrics for vapor:
+MAPE: 13.0%
+MAE: 2.005399
+MSE: 83.754134
+RMSE: 9.151728
+R2: 0.116085
+
+ > Test data <
+Metrics for vapor:
+MAPE: 8.0%
+MAE: 0.829968
+MSE: 3.898783
+RMSE: 1.974534
+R2: 0.164784
+
+*** Cross-Validation Metrics ***
+Vapor Phase - RMSE (mean): 1.706305884946532
+RMSE (std): 8.459750901912587MAE (mean): 1.706305884946532
+MAE (std): 8.459750901912587R² (mean): nan
+R² (std): nanMSE (mean): 74.47886509541401
+MSE (std): 993.178392802748>>> Comparison: Vapor <<<
+
+Metrics for vapor - Exp x NIST:
+MAPE: 2.0%
+MAE: 0.870279
+MSE: 78.003988
+RMSE: 8.831987
+R2: -0.015534
+
+Metrics for vapor - Exp x Model:
+MAPE: 11.0%
+MAE: 1.706306
+MSE: 74.478865
+RMSE: 8.630114
+R2: 0.030359
+
+Metrics for vapor - NIST x Model:
+MAPE: 15.0%
+MAE: 1.322354
+MSE: 14.418466
+RMSE: 3.797166
+R2: -0.48531
+
+
+>>> SUPERCRITICAL PHASE <<<
+
+Best Hyperparameters for supercritical state for Adaboost with Ridge: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 5, 'min_child_samples': 20, 'n_estimators': 100, 'num_leaves': 31, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'subsample': 0.8}.
+
+ > Train data <
+Metrics for supercritical:
+MAPE: 8.0%
+MAE: 1.778631
+MSE: 14.328463
+RMSE: 3.785296
+R2: 0.918689
+
+ > Test data <
+Metrics for supercritical:
+MAPE: 9.0%
+MAE: 2.240857
+MSE: 22.105901
+RMSE: 4.701691
+R2: 0.848879
+
+*** Cross-Validation Metrics ***
+Supercritical Phase - RMSE (mean): 2.0148739346738034
+RMSE (std): 4.148311974634377MAE (mean): 2.0148739346738034
+MAE (std): 4.148311974634377R² (mean): nan
+R² (std): nanMSE (mean): 21.268209211522862
+MSE (std): 112.75120481696658>>> Comparison: Supercritical <<<
+
+Metrics for supercritical - Exp x NIST:
+MAPE: 15.0%
+MAE: 2.22894
+MSE: 79.405683
+RMSE: 8.910987
+R2: 0.533763
+
+Metrics for supercritical - Exp x Model:
+MAPE: 10.0%
+MAE: 2.014874
+MSE: 21.268209
+RMSE: 4.611747
+R2: 0.875122
+
+Metrics for supercritical - NIST x Model:
+MAPE: 9.0%
+MAE: 2.855957
+MSE: 55.615942
+RMSE: 7.45761
+R2: 0.734188

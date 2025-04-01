@@ -1,0 +1,316 @@
+Directory: BaggingRegressorLassoCV10
+
+---- Liquid Phase ----
+RMSE (mean): 27.029 (std): 25.460
+MAE (mean): 19.816 (std): 14.455
+R² (mean): -0.766 (std): 1.933
+MSE (mean): 27.029 (std): 25.460
+
+---- Vapor Phase ----
+RMSE (mean): 24.695 (std): 23.711
+MAE (mean): 19.464 (std): 15.754
+R² (mean): -2400940415549479291875873521664.000 (std): 5645171133058904293050891108352.000
+MSE (mean): 24.695 (std): 23.711
+
+---- Supercritical Phase ----
+RMSE (mean): 49.483 (std): 17.905
+MAE (mean): 43.067 (std): 17.180
+R² (mean): -0.974 (std): 1.762
+MSE (mean): 49.483 (std): 17.905
+
+Directory: BaggingRegressorLassoCVLOO
+
+---- Liquid Phase ----
+RMSE (mean): 16.373 (std): 28.355
+MAE (mean): 16.373 (std): 28.355
+Erro aqui R²MSE (mean): 16.373 (std): 28.355
+
+---- Vapor Phase ----
+RMSE (mean): 15.615 (std): 25.619
+MAE (mean): 15.615 (std): 25.619
+Erro aqui R²MSE (mean): 15.615 (std): 25.619
+
+---- Supercritical Phase ----
+RMSE (mean): 37.754 (std): 26.768
+MAE (mean): 37.754 (std): 26.768
+Erro aqui R²MSE (mean): 37.754 (std): 26.768
+
+Directory: BaggingRegressorRidgeCV10
+
+---- Liquid Phase ----
+RMSE (mean): 27.065 (std): 25.491
+MAE (mean): 19.851 (std): 14.484
+R² (mean): -0.768 (std): 1.934
+MSE (mean): 27.065 (std): 25.491
+
+---- Vapor Phase ----
+RMSE (mean): 24.841 (std): 23.635
+MAE (mean): 19.552 (std): 15.689
+R² (mean): -2092021206725345931405140426752.000 (std): 4726627114902400137015249076224.000
+MSE (mean): 24.841 (std): 23.635
+
+---- Supercritical Phase ----
+RMSE (mean): 49.491 (std): 17.918
+MAE (mean): 43.069 (std): 17.182
+R² (mean): -0.973 (std): 1.761
+MSE (mean): 49.491 (std): 17.918
+
+Directory: BaggingRegressorRidgeCVLOO
+
+---- Liquid Phase ----
+RMSE (mean): 16.384 (std): 28.350
+MAE (mean): 16.384 (std): 28.350
+Erro aqui R²MSE (mean): 16.384 (std): 28.350
+
+---- Vapor Phase ----
+RMSE (mean): 15.651 (std): 25.576
+MAE (mean): 15.651 (std): 25.576
+Erro aqui R²MSE (mean): 15.651 (std): 25.576
+
+---- Supercritical Phase ----
+RMSE (mean): 37.751 (std): 26.773
+MAE (mean): 37.751 (std): 26.773
+Erro aqui R²MSE (mean): 37.751 (std): 26.773
+
+Directory: DecisionTreeCV10
+
+---- Liquid Phase ----
+RMSE (mean): 23.817 (std): 23.899
+MAE (mean): 13.234 (std): 10.041
+R² (mean): -0.564 (std): 2.481
+MSE (mean): 23.817 (std): 23.899
+
+---- Vapor Phase ----
+RMSE (mean): 25.551 (std): 26.649
+MAE (mean): 19.595 (std): 18.785
+R² (mean): -12471036293616578875043317022720.000 (std): 36844780569589871382857712140288.000
+MSE (mean): 25.551 (std): 26.649
+
+---- Supercritical Phase ----
+RMSE (mean): 26.506 (std): 10.409
+MAE (mean): 17.075 (std): 5.727
+R² (mean): 0.048 (std): 1.428
+MSE (mean): 26.506 (std): 10.409
+
+Directory: DecisionTreeCVLOO
+
+---- Liquid Phase ----
+RMSE (mean): 9.716 (std): 26.374
+MAE (mean): 9.716 (std): 26.374
+Erro aqui R²MSE (mean): 9.716 (std): 26.374
+
+---- Vapor Phase ----
+RMSE (mean): 9.255 (std): 19.014
+MAE (mean): 9.255 (std): 19.014
+Erro aqui R²MSE (mean): 9.255 (std): 19.014
+
+---- Supercritical Phase ----
+RMSE (mean): 12.389 (std): 14.500
+MAE (mean): 12.389 (std): 14.500
+Erro aqui R²MSE (mean): 12.389 (std): 14.500
+
+Directory: ExtraTreesRegressorCV10
+
+---- Liquid Phase ----
+RMSE (mean): 21.657 (std): 21.988
+MAE (mean): 11.322 (std): 9.500
+R² (mean): -0.566 (std): 2.758
+MSE (mean): 21.657 (std): 21.988
+
+---- Vapor Phase ----
+RMSE (mean): 18.928 (std): 23.531
+MAE (mean): 14.881 (std): 16.542
+R² (mean): -1285516547187479770013257170944.000 (std): 3758414738089159210103889461248.000
+MSE (mean): 18.928 (std): 23.531
+
+---- Supercritical Phase ----
+RMSE (mean): 13.999 (std): 6.041
+MAE (mean): 7.530 (std): 2.680
+R² (mean): 0.786 (std): 0.209
+MSE (mean): 13.999 (std): 6.041
+
+Directory: ExtraTreesRegressorCVLOO
+
+---- Liquid Phase ----
+RMSE (mean): 7.753 (std): 26.517
+MAE (mean): 7.753 (std): 26.517
+Erro aqui R²MSE (mean): 7.753 (std): 26.517
+
+---- Vapor Phase ----
+RMSE (mean): 7.906 (std): 18.264
+MAE (mean): 7.906 (std): 18.264
+Erro aqui R²MSE (mean): 7.906 (std): 18.264
+
+---- Supercritical Phase ----
+RMSE (mean): 5.060 (std): 11.292
+MAE (mean): 5.060 (std): 11.292
+Erro aqui R²MSE (mean): 5.060 (std): 11.292
+
+Directory: GradientBoostingCV10
+
+---- Liquid Phase ----
+RMSE (mean): 20.262 (std): 22.257
+MAE (mean): 9.772 (std): 9.027
+R² (mean): 0.500 (std): 0.295
+MSE (mean): 20.262 (std): 22.257
+
+---- Vapor Phase ----
+RMSE (mean): 16.155 (std): 22.827
+MAE (mean): 11.077 (std): 14.449
+R² (mean): -78841220387471124420372725760.000 (std): 158772672465568115544333221888.000
+MSE (mean): 16.155 (std): 22.827
+
+---- Supercritical Phase ----
+RMSE (mean): 16.625 (std): 5.600
+MAE (mean): 11.046 (std): 2.803
+R² (mean): 0.704 (std): 0.256
+MSE (mean): 16.625 (std): 5.600
+
+Directory: GradientBoostingCVLOO
+
+---- Liquid Phase ----
+RMSE (mean): 7.268 (std): 26.852
+MAE (mean): 7.268 (std): 26.852
+Erro aqui R²MSE (mean): 7.268 (std): 26.852
+
+---- Vapor Phase ----
+RMSE (mean): 7.144 (std): 20.498
+MAE (mean): 7.144 (std): 20.498
+Erro aqui R²MSE (mean): 7.144 (std): 20.498
+
+---- Supercritical Phase ----
+RMSE (mean): 6.731 (std): 11.273
+MAE (mean): 6.731 (std): 11.273
+Erro aqui R²MSE (mean): 6.731 (std): 11.273
+
+Directory: HistGradientBoosting
+
+---- Liquid Phase ----
+RMSE (mean): 23.640 (std): 21.633
+MAE (mean): 14.325 (std): 9.550
+R² (mean): -0.477 (std): 1.589
+MSE (mean): 23.640 (std): 21.633
+
+---- Vapor Phase ----
+RMSE (mean): 17.603 (std): 21.955
+MAE (mean): 12.471 (std): 14.624
+R² (mean): -4198820465338990460378646839296.000 (std): 12330182217242461855371969429504.000
+MSE (mean): 17.603 (std): 21.955
+
+---- Supercritical Phase ----
+RMSE (mean): 17.274 (std): 5.952
+MAE (mean): 11.301 (std): 2.620
+R² (mean): 0.723 (std): 0.231
+MSE (mean): 17.274 (std): 5.952
+
+Directory: KNeighborsCV10
+
+---- Liquid Phase ----
+RMSE (mean): 24.091 (std): 20.783
+MAE (mean): 12.895 (std): 9.154
+R² (mean): -1.053 (std): 2.941
+MSE (mean): 24.091 (std): 20.783
+
+---- Vapor Phase ----
+RMSE (mean): 26.113 (std): 21.583
+MAE (mean): 19.329 (std): 14.810
+R² (mean): -8570760035560513476946112282624.000 (std): 25306438532544222787214839382016.000
+MSE (mean): 26.113 (std): 21.583
+
+---- Supercritical Phase ----
+RMSE (mean): 23.936 (std): 8.261
+MAE (mean): 15.078 (std): 4.642
+R² (mean): 0.478 (std): 0.440
+MSE (mean): 23.936 (std): 8.261
+
+Directory: KNeighborsCVLOO
+
+---- Liquid Phase ----
+RMSE (mean): 8.163 (std): 26.588
+MAE (mean): 8.163 (std): 26.588
+Erro aqui R²MSE (mean): 8.163 (std): 26.588
+
+---- Vapor Phase ----
+RMSE (mean): 15.093 (std): 19.905
+MAE (mean): 15.093 (std): 19.905
+Erro aqui R²MSE (mean): 15.093 (std): 19.905
+
+---- Supercritical Phase ----
+RMSE (mean): 7.991 (std): 12.160
+MAE (mean): 7.991 (std): 12.160
+Erro aqui R²MSE (mean): 7.991 (std): 12.160
+
+Directory: NeuralNetworkCV10
+
+---- Liquid Phase ----
+RMSE (mean): 75.823 (std): 103.755
+MAE (mean): 50.260 (std): 71.710
+R² (mean): -40.790 (std): 96.683
+MSE (mean): 75.823 (std): 103.755
+
+---- Vapor Phase ----
+RMSE (mean): 18.589 (std): 24.501
+MAE (mean): 13.969 (std): 17.125
+R² (mean): -78465130070037064764813737984.000 (std): 164896541396119556743204175872.000
+MSE (mean): 18.589 (std): 24.501
+
+---- Supercritical Phase ----
+RMSE (mean): 25.287 (std): 11.696
+MAE (mean): 15.911 (std): 5.348
+R² (mean): 0.647 (std): 0.417
+MSE (mean): 25.287 (std): 11.696
+
+Directory: NeuralNetworkCVLOO
+
+---- Liquid Phase ----
+RMSE (mean): 19.008 (std): 27.041
+MAE (mean): 19.507 (std): 27.849
+Erro aqui R²MSE (mean): 19.008 (std): 27.041
+
+---- Vapor Phase ----
+RMSE (mean): 24.917 (std): 33.916
+MAE (mean): 21.920 (std): 32.336
+Erro aqui R²MSE (mean): 24.917 (std): 33.916
+
+---- Supercritical Phase ----
+RMSE (mean): 15.522 (std): 16.429
+MAE (mean): 15.022 (std): 15.927
+Erro aqui R²MSE (mean): 15.522 (std): 16.429
+
+Directory: XGBCV10
+
+---- Liquid Phase ----
+RMSE (mean): 30.192 (std): 20.396
+MAE (mean): 19.043 (std): 11.170
+R² (mean): -3.829 (std): 7.711
+MSE (mean): 30.192 (std): 20.396
+
+---- Vapor Phase ----
+RMSE (mean): 22.181 (std): 23.173
+MAE (mean): 16.318 (std): 15.530
+R² (mean): -4175897382100.657 (std): 12400960421705.729
+MSE (mean): 22.181 (std): 23.173
+
+---- Supercritical Phase ----
+RMSE (mean): 31.518 (std): 5.440
+MAE (mean): 25.515 (std): 5.101
+R² (mean): -0.048 (std): 0.837
+MSE (mean): 31.518 (std): 5.440
+
+Directory: XGBCVLOO
+
+---- Liquid Phase ----
+RMSE (mean): 13.952 (std): 26.723
+MAE (mean): 13.952 (std): 26.723
+Erro aqui R²MSE (mean): 13.952 (std): 26.723
+
+---- Vapor Phase ----
+RMSE (mean): 11.000 (std): 19.180
+MAE (mean): 11.000 (std): 19.180
+Erro aqui R²MSE (mean): 11.000 (std): 19.180
+
+---- Supercritical Phase ----
+RMSE (mean): 19.853 (std): 17.024
+MAE (mean): 19.853 (std): 17.024
+Erro aqui R²MSE (mean): 19.853 (std): 17.024
+

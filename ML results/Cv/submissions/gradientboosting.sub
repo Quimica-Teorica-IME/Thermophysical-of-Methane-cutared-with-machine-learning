@@ -1,0 +1,31 @@
+#!/bin/bash
+##
+## Copyright (C) 2009-2021 VersatusHPC, Inc.
+##
+## partition = fila
+#SBATCH --partition=normal
+##
+## nodes = quantidade de nodes
+#SBATCH --nodes=1
+##
+## nodes = quantidade de nodes
+#SBATCH --nodelist=n01
+##
+## ntasks-per-node = quantidade de nucleos por node
+#SBATCH --ntasks-per-node=4
+##
+## time = quantidade de tempo
+#SBATCH --time=720:00:00
+##
+## Nome do job
+#SBATCH --job-name=gradientboosting
+##
+
+cd /home/mmaximo/python/Thermophysical/Cv/codes
+
+module load anaconda3/2024.2
+conda init
+conda activate  my-ml
+
+python gradientboosting.py > gradientboosting.log 2>&1
+

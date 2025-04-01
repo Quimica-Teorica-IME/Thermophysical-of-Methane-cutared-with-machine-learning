@@ -1,0 +1,102 @@
+========== BaggingRegressorLassoCV10 ==========
+Best Hyperparameters for liquid state for Bagging with Lasso: {'bootstrap': False, 'max_features': 1.0, 'max_samples': 0.7, 'n_estimators': 200, 'random_state': 42}.
+Best Hyperparameters for vapor state for Bagging with Lasso: {'bootstrap': False, 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 200, 'random_state': 42}.
+Best Hyperparameters for supercritical state for Bagging with Lasso: {'bootstrap': True, 'max_features': 1.0, 'max_samples': 0.5, 'n_estimators': 50, 'random_state': 42}.
+
+
+========== BaggingRegressorLassoCVLOO ==========
+Best Hyperparameters for liquid state for Bagging with Lasso: {'bootstrap': False, 'max_features': 1.0, 'max_samples': 0.7, 'n_estimators': 50, 'random_state': 42}.
+Best Hyperparameters for vapor state for Bagging with Lasso: {'bootstrap': False, 'max_features': 1.0, 'max_samples': 0.5, 'n_estimators': 50, 'random_state': 42}.
+Best Hyperparameters for supercritical state for Bagging with Lasso: {'bootstrap': True, 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 100, 'random_state': 42}.
+
+
+========== BaggingRegressorRidgeCV10 ==========
+Best Hyperparameters for liquid state for Bagging with Ridge: {'bootstrap': False, 'max_features': 1.0, 'max_samples': 0.7, 'n_estimators': 200, 'random_state': 42}.
+Best Hyperparameters for vapor state for Bagging with Ridge: {'bootstrap': False, 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 100, 'random_state': 42}.
+Best Hyperparameters for supercritical state for Bagging with Ridge: {'bootstrap': True, 'max_features': 1.0, 'max_samples': 0.5, 'n_estimators': 50, 'random_state': 42}.
+
+
+========== BaggingRegressorRidgeCVLOO ==========
+Best Hyperparameters for liquid state for Bagging with Ridge: {'bootstrap': False, 'max_features': 1.0, 'max_samples': 0.7, 'n_estimators': 50, 'random_state': 42}.
+Best Hyperparameters for vapor state for Bagging with Ridge: {'bootstrap': False, 'max_features': 1.0, 'max_samples': 0.5, 'n_estimators': 50, 'random_state': 42}.
+Best Hyperparameters for supercritical state for Bagging with Ridge: {'bootstrap': True, 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 100, 'random_state': 42}.
+
+
+========== DecisionTreeCV10 ==========
+Best Hyperparameters for liquid state for DecisionTree: {'criterion': 'absolute_error', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10, 'random_state': 42}.
+Best Hyperparameters for vapor state for DecisionTree: {'criterion': 'absolute_error', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'random_state': 42}.
+Best Hyperparameters for supercritical state for DecisionTree: {'criterion': 'squared_error', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'random_state': 42}.
+
+
+========== DecisionTreeCVLOO ==========
+Best Hyperparameters for liquid state for DecisionTree: {'criterion': 'absolute_error', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 2, 'random_state': 42}.
+Best Hyperparameters for vapor state for DecisionTree: {'criterion': 'squared_error', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 10, 'random_state': 42}.
+Best Hyperparameters for supercritical state for DecisionTree: {'criterion': 'squared_error', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'random_state': 42}.
+
+
+========== ExtraTreesRegressorCV10 ==========
+Best Hyperparameters for liquid state for ExtraTrees: {'bootstrap': False, 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 50, 'random_state': 42}.
+Best Hyperparameters for vapor state for ExtraTrees: {'bootstrap': True, 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 50, 'random_state': 42}.
+Best Hyperparameters for supercritical state for ExtraTrees: {'bootstrap': False, 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200, 'random_state': 42}.
+
+
+========== ExtraTreesRegressorCVLOO ==========
+Best Hyperparameters for liquid state for ExtraTrees: {'bootstrap': True, 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200, 'random_state': 42}.
+Best Hyperparameters for vapor state for ExtraTrees: {'bootstrap': False, 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 50, 'random_state': 42}.
+Best Hyperparameters for supercritical state for ExtraTrees: {'bootstrap': True, 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200, 'random_state': 42}.
+
+
+========== GradientBoostingCV10 ==========
+Best Hyperparameters for liquid state for GradientBoosting: {'learning_rate': 0.1, 'loss': 'huber', 'max_depth': 4, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100, 'random_state': 42}.
+Best Hyperparameters for vapor state for GradientBoosting: {'learning_rate': 0.1, 'loss': 'huber', 'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 50, 'random_state': 42}.
+Best Hyperparameters for supercritical state for GradientBoosting: {'learning_rate': 0.1, 'loss': 'huber', 'max_depth': 4, 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 200, 'random_state': 42}.
+
+
+========== GradientBoostingCVLOO ==========
+Best Hyperparameters for liquid state for GradientBoosting: {'learning_rate': 0.1, 'loss': 'huber', 'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 3, 'n_estimators': 50, 'random_state': 42}.
+Best Hyperparameters for vapor state for GradientBoosting: {'learning_rate': 0.1, 'loss': 'huber', 'max_depth': 3, 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 50, 'random_state': 42}.
+Best Hyperparameters for supercritical state for GradientBoosting: {'learning_rate': 0.1, 'loss': 'huber', 'max_depth': 4, 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 200, 'random_state': 42}.
+
+
+========== HistGradientBoosting ==========
+Best Hyperparameters for liquid state for HistGradientBoosting: {'l2_regularization': 0, 'learning_rate': 0.05, 'max_bins': 255, 'max_depth': 3, 'max_iter': 100, 'max_leaf_nodes': 31, 'min_samples_leaf': 20}.
+Best Hyperparameters for vapor state for HistGradientBoosting: {'l2_regularization': 0, 'learning_rate': 0.05, 'max_bins': 255, 'max_depth': 3, 'max_iter': 300, 'max_leaf_nodes': 31, 'min_samples_leaf': 20}.
+Best Hyperparameters for supercritical state for HistGradientBoosting: {'l2_regularization': 0.5, 'learning_rate': 0.05, 'max_bins': 255, 'max_depth': 7, 'max_iter': 300, 'max_leaf_nodes': 31, 'min_samples_leaf': 20}.
+
+
+========== KNeighborsCV10 ==========
+Best Hyperparameters for liquid state for KNeighbors: {'algorithm': 'auto', 'leaf_size': 20, 'n_neighbors': 9, 'p': 2, 'weights': 'uniform'}.
+Best Hyperparameters for vapor state for KNeighbors: {'algorithm': 'auto', 'leaf_size': 20, 'n_neighbors': 5, 'p': 2, 'weights': 'distance'}.
+Best Hyperparameters for supercritical state for KNeighbors: {'algorithm': 'auto', 'leaf_size': 40, 'n_neighbors': 3, 'p': 2, 'weights': 'distance'}.
+
+
+========== KNeighborsCVLOO ==========
+Best Hyperparameters for liquid state for KNeighbors: {'algorithm': 'auto', 'leaf_size': 20, 'n_neighbors': 9, 'p': 2, 'weights': 'uniform'}.
+Best Hyperparameters for vapor state for KNeighbors: {'algorithm': 'auto', 'leaf_size': 20, 'n_neighbors': 5, 'p': 2, 'weights': 'distance'}.
+Best Hyperparameters for supercritical state for KNeighbors: {'algorithm': 'auto', 'leaf_size': 20, 'n_neighbors': 3, 'p': 2, 'weights': 'distance'}.
+
+
+========== NeuralNetworkCV10 ==========
+Best Hyperparameters for liquid state for Neural Network: {'activation': 'relu', 'alpha': 0.001, 'batch_size': 64, 'hidden_layer_sizes': (512, 256, 128), 'learning_rate_init': 0.001, 'max_iter': 300, 'solver': 'adam'}.
+Best Hyperparameters for vapor state for Neural Network: {'activation': 'relu', 'alpha': 0.01, 'batch_size': 128, 'hidden_layer_sizes': (512, 512, 512), 'learning_rate_init': 0.001, 'max_iter': 300, 'solver': 'adam'}.
+Best Hyperparameters for supercritical state for Neural Network: {'activation': 'relu', 'alpha': 0.001, 'batch_size': 32, 'hidden_layer_sizes': (1024, 512, 256, 128), 'learning_rate_init': 0.001, 'max_iter': 300, 'solver': 'adam'}.
+
+
+========== NeuralNetworkCVLOO ==========
+Best Hyperparameters for liquid state for Neural Network: {'activation': 'relu', 'alpha': 0.01, 'batch_size': 32, 'hidden_layer_sizes': (512, 256, 128), 'learning_rate_init': 0.001, 'max_iter': 200, 'solver': 'adam'}.
+Best Hyperparameters for vapor state for Neural Network: {'activation': 'relu', 'alpha': 0.01, 'batch_size': 128, 'hidden_layer_sizes': (512, 256, 128, 64), 'learning_rate_init': 0.001, 'max_iter': 300, 'solver': 'adam'}.
+Best Hyperparameters for supercritical state for Neural Network: {'activation': 'relu', 'alpha': 0.001, 'batch_size': 32, 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': False, 'epsilon': 1e-08, 'hidden_layer_sizes': (512, 256, 128, 64), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 200, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}.
+
+
+========== XGBCV10 ==========
+Best Hyperparameters for liquid state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 50, 'random_state': 42, 'subsample': 0.6}.
+Best Hyperparameters for vapor state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 50, 'random_state': 42, 'subsample': 0.6}.
+Best Hyperparameters for supercritical state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 100, 'random_state': 42, 'subsample': 0.8}.
+
+
+========== XGBCVLOO ==========
+Best Hyperparameters for liquid state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 50, 'random_state': 42, 'subsample': 0.6}.
+Best Hyperparameters for vapor state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 50, 'random_state': 42, 'subsample': 0.6}.
+Best Hyperparameters for supercritical state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 100, 'random_state': 42, 'subsample': 0.8}.
+
+

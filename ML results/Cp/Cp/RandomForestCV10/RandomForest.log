@@ -1,0 +1,156 @@
+
+Number of matched data between NIST and Experimental: 513
+Number of missing data between NIST and Experimental: 0
+Number of data labeled with 'undefined': 0
+Number of data points in Liquid state: 195
+Number of data points in Vapor state: 164
+Number of data points in Supercritical state: 154
+Data size in liquid phase (NIST): 195, Corresponding experimental data: 195
+Data size in vapor phase (NIST): 164, Corresponding experimental data: 164
+Data size in supercritical phase (NIST): 154, Corresponding experimental data: 154
+
+>>> LIQUID PHASE <<<
+
+Best Hyperparameters for liquid state for RandomForest: {'bootstrap': True, 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}.
+
+ > Train data <
+Metrics for liquid:
+MAPE: 1.0%
+MAE: 2.66393
+MSE: 490.246474
+RMSE: 22.14151
+R2: 0.882645
+
+ > Test data <
+Metrics for liquid:
+MAPE: 2.0%
+MAE: 1.653403
+MSE: 12.494692
+RMSE: 3.534783
+R2: 0.940219
+
+*** Cross-Validation Metrics ***
+Liquid Phase - RMSE (mean): 21.833970885562795
+RMSE (std): 48.568718535069635MAE (mean): 6.193623077758455
+MAE (std): 11.178585232304142R² (mean): 0.49141559657475664
+R² (std): 0.8415048334177474MSE (mean): 2835.6427047704196
+MSE (std): 8333.77971163402>>> Comparison: Liquid <<<
+
+Metrics for liquid - Exp x NIST:
+MAPE: 1.0%
+MAE: 4.215452
+MSE: 2820.263864
+RMSE: 53.106157
+R2: 0.167477
+
+Metrics for liquid - Exp x Model:
+MAPE: 3.0%
+MAE: 6.2777
+MSE: 2906.796846
+RMSE: 53.914718
+R2: 0.141933
+
+Metrics for liquid - NIST x Model:
+MAPE: 3.0%
+MAE: 2.389697
+MSE: 48.304942
+RMSE: 6.950176
+R2: 0.82393
+
+
+>>> VAPOR PHASE <<<
+
+Best Hyperparameters for vapor state for RandomForest: {'bootstrap': False, 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}.
+
+ > Train data <
+Metrics for vapor:
+MAPE: 0.0%
+MAE: 0.0
+MSE: 0.0
+RMSE: 0.0
+R2: 1.0
+
+ > Test data <
+Metrics for vapor:
+MAPE: 5.0%
+MAE: 11.365454
+MSE: 2855.085194
+RMSE: 53.432997
+R2: 0.957837
+
+*** Cross-Validation Metrics ***
+Vapor Phase - RMSE (mean): 60.02737974370007
+RMSE (std): 122.75698881666759MAE (mean): 27.832828488970602
+MAE (std): 53.59649872389795R² (mean): -2.540953593009236
+R² (std): 8.247582535415047MSE (mean): 18672.564622229827
+MSE (std): 53500.124976428815>>> Comparison: Vapor <<<
+
+Metrics for vapor - Exp x NIST:
+MAPE: 2.0%
+MAE: 18.556296
+MSE: 17686.113319
+RMSE: 132.989147
+R2: 0.116609
+
+Metrics for vapor - Exp x Model:
+MAPE: 19.0%
+MAE: 28.297864
+MSE: 19309.547314
+RMSE: 138.958797
+R2: 0.035521
+
+Metrics for vapor - NIST x Model:
+MAPE: 18.0%
+MAE: 10.817563
+MSE: 907.212685
+RMSE: 30.119972
+R2: 0.178443
+
+
+>>> SUPERCRITICAL PHASE <<<
+
+Best Hyperparameters for supercritical state for RandomForest: {'bootstrap': True, 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}.
+
+ > Train data <
+Metrics for supercritical:
+MAPE: 3.0%
+MAE: 4.338424
+MSE: 137.315365
+RMSE: 11.718164
+R2: 0.976045
+
+ > Test data <
+Metrics for supercritical:
+MAPE: 7.000000000000001%
+MAE: 5.848147
+MSE: 349.978881
+RMSE: 18.707722
+R2: 0.323012
+
+*** Cross-Validation Metrics ***
+Supercritical Phase - RMSE (mean): 30.04786305897293
+RMSE (std): 38.677022496496754MAE (mean): 16.226707204322402
+MAE (std): 17.55974572192849R² (mean): 0.16898784778658546
+R² (std): 0.8857605771803548MSE (mean): 2398.7861436053063
+MSE (std): 5798.504929402839>>> Comparison: Supercritical <<<
+
+Metrics for supercritical - Exp x NIST:
+MAPE: 4.0%
+MAE: 2.389136
+MSE: 32.386242
+RMSE: 5.690891
+R2: 0.993185
+
+Metrics for supercritical - Exp x Model:
+MAPE: 13.0%
+MAE: 16.332992
+MSE: 2467.806089
+RMSE: 49.677018
+R2: 0.480733
+
+Metrics for supercritical - NIST x Model:
+MAPE: 13.0%
+MAE: 16.372581
+MSE: 2460.792942
+RMSE: 49.60638
+R2: 0.46524

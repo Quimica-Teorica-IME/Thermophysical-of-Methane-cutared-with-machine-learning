@@ -1,0 +1,272 @@
+ ======== AdaboostLassoCV10 ========
+Liquid Phase - AdaboostLasso
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+Vapor Phase - AdaboostLasso
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+Supercritical Phase - AdaboostLasso
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+
+ ======== AdaboostLassoCVLOO ========
+Liquid Phase - AdaboostLasso
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+Vapor Phase - AdaboostLasso
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+Supercritical Phase - AdaboostLasso
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+
+ ======== AdaboostRidgeCV10 ========
+Liquid Phase - AdaboostRidge
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+Vapor Phase - AdaboostRidge
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+Supercritical Phase - AdaboostRidge
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+
+ ======== AdaboostRidgeCVLOO ========
+Liquid Phase - AdaboostRidge
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+Vapor Phase - AdaboostRidge
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+Supercritical Phase - AdaboostRidge
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+
+ ======== ExtraTreesRegressorCV10 ========
+Liquid Phase - ExtraTreesRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,2.0%,0.632,2.401,1.550,0.500
+Exp x NIST,2.0%,0.446,1.815,1.347,0.622
+NIST x Model,2.0%,0.481,0.439,0.663,0.805
+
+Vapor Phase - ExtraTreesRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+Supercritical Phase - ExtraTreesRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+
+ ======== ExtraTreesRegressorCVLOO ========
+Liquid Phase - ExtraTreesRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,2.0%,0.471,1.927,1.388,0.598
+Exp x NIST,2.0%,0.446,1.815,1.347,0.622
+NIST x Model,1.0%,0.365,0.225,0.474,0.900
+
+Vapor Phase - ExtraTreesRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,12.0%,3.340,17.672,4.204,-0.488
+Exp x NIST,3.0%,0.662,0.656,0.810,0.945
+NIST x Model,9.0%,2.678,14.589,3.820,-0.785
+
+Supercritical Phase - ExtraTreesRegressor
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,1.0%,0.385,1.775,1.332,0.748
+Exp x NIST,1.0%,0.483,1.000,1.000,0.858
+NIST x Model,2.0%,0.550,0.819,0.905,0.813
+
+
+ ======== GradientBoostingCV10 ========
+Liquid Phase - GradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,3.0%,0.794,3.373,1.837,0.297
+Exp x NIST,2.0%,0.446,1.815,1.347,0.622
+NIST x Model,2.0%,0.651,1.460,1.208,0.352
+
+Vapor Phase - GradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,12.0%,3.473,19.897,4.461,-0.676
+Exp x NIST,3.0%,0.662,0.656,0.810,0.945
+NIST x Model,10.0%,2.811,15.512,3.939,-0.897
+
+Supercritical Phase - GradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,2.0%,0.547,2.877,1.696,0.591
+Exp x NIST,1.0%,0.483,1.000,1.000,0.858
+NIST x Model,2.0%,0.595,1.428,1.195,0.674
+
+
+ ======== GradientBoostingCVLOO ========
+Liquid Phase - GradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,2.0%,0.442,2.259,1.503,0.529
+Exp x NIST,2.0%,0.446,1.815,1.347,0.622
+NIST x Model,1.0%,0.395,0.511,0.715,0.773
+
+Vapor Phase - GradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,14.0%,4.018,21.193,4.604,-0.785
+Exp x NIST,3.0%,0.662,0.656,0.810,0.945
+NIST x Model,12.0%,3.356,16.666,4.082,-1.039
+
+Supercritical Phase - GradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,1.0%,0.424,2.601,1.613,0.631
+Exp x NIST,1.0%,0.483,1.000,1.000,0.858
+NIST x Model,2.0%,0.535,1.463,1.210,0.666
+
+
+ ======== HistGradientBoosting ========
+Liquid Phase - HistGradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,3.0%,0.894,2.823,1.680,0.412
+Exp x NIST,2.0%,0.446,1.815,1.347,0.622
+NIST x Model,2.0%,0.709,0.833,0.913,0.630
+
+Vapor Phase - HistGradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,15.0%,4.177,22.330,4.725,-0.880
+Exp x NIST,3.0%,0.662,0.656,0.810,0.945
+NIST x Model,12.0%,3.562,17.279,4.157,-1.114
+
+Supercritical Phase - HistGradientBoosting
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,2.0%,0.647,3.101,1.761,0.560
+Exp x NIST,1.0%,0.483,1.000,1.000,0.858
+NIST x Model,2.0%,0.697,1.706,1.306,0.611
+
+
+ ======== KNeighbors ========
+Liquid Phase - KNeighbors
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,3.0%,0.782,2.892,1.700,0.397
+Exp x NIST,2.0%,0.446,1.815,1.347,0.622
+NIST x Model,2.0%,0.623,0.921,0.959,0.591
+
+Vapor Phase - KNeighbors
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+Supercritical Phase - KNeighbors
+Comparison,MAPE,MAE,MSE,RMSE,R2
+
+
+ ======== LGBM ========
+Liquid Phase - LGBM
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,2.0%,0.607,2.088,1.445,0.565
+Exp x NIST,2.0%,0.446,1.815,1.347,0.622
+NIST x Model,1.0%,0.421,0.301,0.548,0.867
+
+Vapor Phase - LGBM
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,14.0%,3.767,21.111,4.595,-0.778
+Exp x NIST,3.0%,0.662,0.656,0.810,0.945
+NIST x Model,11.0%,3.152,16.195,4.024,-0.981
+
+Supercritical Phase - LGBM
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,2.0%,0.574,2.495,1.579,0.646
+Exp x NIST,1.0%,0.483,1.000,1.000,0.858
+NIST x Model,2.0%,0.659,1.339,1.157,0.694
+
+
+ ======== NeuralNetworkCV10 ========
+Liquid Phase - NeuralNetwork
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,5.0%,1.368,4.762,2.182,0.007
+Exp x NIST,2.0%,0.446,1.815,1.347,0.622
+NIST x Model,4.0%,1.148,2.238,1.496,0.006
+
+Vapor Phase - NeuralNetwork
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,41.0%,11.374,164.666,12.832,-12.866
+Exp x NIST,3.0%,0.662,0.656,0.810,0.945
+NIST x Model,38.0%,10.759,157.268,12.541,-18.237
+
+Supercritical Phase - NeuralNetwork
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,6.0%,1.895,8.291,2.879,-0.177
+Exp x NIST,1.0%,0.483,1.000,1.000,0.858
+NIST x Model,6.0%,1.776,5.446,2.334,-0.243
+
+
+ ======== NeuralNetworkCVLOO ========
+Liquid Phase - NeuralNetwork
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,12.0%,3.554,56.971,7.548,-10.876
+Exp x NIST,2.0%,0.446,1.815,1.347,0.622
+NIST x Model,11.0%,3.343,53.207,7.294,-22.621
+
+Vapor Phase - NeuralNetwork
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,22.0%,6.404,60.714,7.792,-4.113
+Exp x NIST,3.0%,0.662,0.656,0.810,0.945
+NIST x Model,24.0%,6.872,62.791,7.924,-6.680
+
+Supercritical Phase - NeuralNetwork
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,9.0%,2.772,12.044,3.470,-0.710
+Exp x NIST,1.0%,0.483,1.000,1.000,0.858
+NIST x Model,9.0%,2.689,11.112,3.333,-1.537
+
+
+ ======== RandomForest ========
+Liquid Phase - RandomForest
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,3.0%,0.886,2.977,1.725,0.379
+Exp x NIST,2.0%,0.446,1.815,1.347,0.622
+NIST x Model,2.0%,0.692,0.962,0.981,0.573
+
+Vapor Phase - RandomForest
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,15.0%,4.153,21.685,4.657,-0.826
+Exp x NIST,3.0%,0.662,0.656,0.810,0.945
+NIST x Model,12.0%,3.538,16.406,4.050,-1.007
+
+Supercritical Phase - RandomForest
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,2.0%,0.550,2.925,1.710,0.585
+Exp x NIST,1.0%,0.483,1.000,1.000,0.858
+NIST x Model,2.0%,0.649,1.579,1.257,0.639
+
+
+ ======== XGBCV10 ========
+Liquid Phase - XGB
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,3.0%,0.823,2.645,1.626,0.449
+Exp x NIST,2.0%,0.446,1.815,1.347,0.622
+NIST x Model,2.0%,0.644,0.650,0.806,0.712
+
+Vapor Phase - XGB
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,15.0%,4.177,22.330,4.725,-0.880
+Exp x NIST,3.0%,0.662,0.656,0.810,0.945
+NIST x Model,12.0%,3.562,17.279,4.157,-1.114
+
+Supercritical Phase - XGB
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,2.0%,0.816,3.771,1.942,0.465
+Exp x NIST,1.0%,0.483,1.000,1.000,0.858
+NIST x Model,3.0%,0.800,2.138,1.462,0.512
+
+
+ ======== XGBCVLOO ========
+Liquid Phase - XGB
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,2.0%,0.682,2.289,1.513,0.523
+Exp x NIST,2.0%,0.446,1.815,1.347,0.622
+NIST x Model,2.0%,0.532,0.497,0.705,0.780
+
+Vapor Phase - XGB
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,14.0%,3.767,21.111,4.595,-0.778
+Exp x NIST,3.0%,0.662,0.656,0.810,0.945
+NIST x Model,11.0%,3.152,16.195,4.024,-0.981
+
+Supercritical Phase - XGB
+Comparison,MAPE,MAE,MSE,RMSE,R2
+Exp x Model,2.0%,0.694,2.796,1.672,0.603
+Exp x NIST,1.0%,0.483,1.000,1.000,0.858
+NIST x Model,2.0%,0.664,1.484,1.218,0.661
+
+

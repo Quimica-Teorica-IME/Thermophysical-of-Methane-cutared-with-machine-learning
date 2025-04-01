@@ -1,0 +1,6 @@
+Temperature (K)	Pressure (MPa)	Cv (J/mol*K)	Reference	Outlier
+278.0	0.1	26.82	Giacomini-2009	1
+222.0	0.08	24.64	Giacomini-2009	1
+180.0	0.03	23.77	Giacomini-2009	1
+83.0	0.03	75.31	Giacomini-2009	1
+185.5	4.25	32.61	Younglove-1974	-1

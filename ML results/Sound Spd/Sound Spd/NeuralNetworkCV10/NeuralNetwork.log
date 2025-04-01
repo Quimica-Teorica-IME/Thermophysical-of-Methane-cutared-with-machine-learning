@@ -1,0 +1,156 @@
+
+Number of matched data between NIST and Experimental: 897
+Number of missing data between NIST and Experimental: 19
+Number of data labeled with 'undefined': 16
+Number of data points in Liquid state: 385
+Number of data points in Vapor state: 289
+Number of data points in Supercritical state: 223
+Data size in liquid phase (NIST): 385, Corresponding experimental data: 385
+Data size in vapor phase (NIST): 289, Corresponding experimental data: 289
+Data size in supercritical phase (NIST): 223, Corresponding experimental data: 223
+
+>>> LIQUID PHASE <<<
+
+Best Hyperparameters for liquid state for Neural Network: {'activation': 'relu', 'alpha': 0.0001, 'batch_size': 32, 'hidden_layer_sizes': (512, 256, 128, 64), 'learning_rate_init': 0.001, 'max_iter': 300, 'solver': 'adam'}.
+
+ > Train data <
+Metrics for liquid:
+MAPE: 19.0%
+MAE: 115.931435
+MSE: 18391.476017
+RMSE: 135.615176
+R2: 0.886822
+
+ > Test data <
+Metrics for liquid:
+MAPE: 20.0%
+MAE: 116.225623
+MSE: 17362.962356
+RMSE: 131.768594
+R2: 0.905491
+
+*** Cross-Validation Metrics ***
+Liquid Phase - RMSE (mean): 481.11650148262305
+RMSE (std): 928.9276826816973MAE (mean): 526.1374938985888
+MAE (std): 1018.1075825527055R² (mean): -10.191828127648641
+R² (std): 22.20638297625285MSE (mean): 1116538.2439817453
+MSE (std): 3291704.810977275>>> Comparison: Liquid <<<
+
+Metrics for liquid - Exp x NIST:
+MAPE: 6.0%
+MAE: 25.674421
+MSE: 11763.196378
+RMSE: 108.45827
+R2: 0.929654
+
+Metrics for liquid - Exp x Model:
+MAPE: 42.0%
+MAE: 498.97803
+MSE: 5999079.956081
+RMSE: 2449.301932
+R2: -34.875752
+
+Metrics for liquid - NIST x Model:
+MAPE: 40.0%
+MAE: 493.877116
+MSE: 5996560.430782
+RMSE: 2448.787543
+R2: -35.615536
+
+
+>>> VAPOR PHASE <<<
+
+Best Hyperparameters for vapor state for Neural Network: {'activation': 'relu', 'alpha': 0.01, 'batch_size': 32, 'hidden_layer_sizes': (512, 256, 128), 'learning_rate_init': 0.001, 'max_iter': 200, 'solver': 'adam'}.
+
+ > Train data <
+Metrics for vapor:
+MAPE: 40.0%
+MAE: 220.754926
+MSE: 84446.450747
+RMSE: 290.596715
+R2: -0.831592
+
+ > Test data <
+Metrics for vapor:
+MAPE: 39.0%
+MAE: 205.197229
+MSE: 64549.798798
+RMSE: 254.066524
+R2: -0.944864
+
+*** Cross-Validation Metrics ***
+Vapor Phase - RMSE (mean): 216.7153113363658
+RMSE (std): 134.05451846037454MAE (mean): 184.87568259866904
+MAE (std): 196.78857184949177R² (mean): -40.01850249211318
+R² (std): 58.15741200286355MSE (mean): 50145.82590805263
+MSE (std): 49973.86346241705>>> Comparison: Vapor <<<
+
+Metrics for vapor - Exp x NIST:
+MAPE: 21.0%
+MAE: 140.144668
+MSE: 65033.990522
+RMSE: 255.017628
+R2: -0.494158
+
+Metrics for vapor - Exp x Model:
+MAPE: 61.0%
+MAE: 287.582672
+MSE: 116072.536955
+RMSE: 340.694199
+R2: -1.666771
+
+Metrics for vapor - NIST x Model:
+MAPE: 46.0%
+MAE: 169.499503
+MSE: 54515.876081
+RMSE: 233.486351
+R2: -1.89186
+
+
+>>> SUPERCRITICAL PHASE <<<
+
+Best Hyperparameters for supercritical state for Neural Network: {'activation': 'relu', 'alpha': 0.001, 'batch_size': 32, 'hidden_layer_sizes': (512, 512, 512), 'learning_rate_init': 0.001, 'max_iter': 50, 'solver': 'adam'}.
+
+ > Train data <
+Metrics for supercritical:
+MAPE: 63.0%
+MAE: 114.1469
+MSE: 30994.465177
+RMSE: 176.05245
+R2: 0.968886
+
+ > Test data <
+Metrics for supercritical:
+MAPE: 9.0%
+MAE: 96.720957
+MSE: 25291.726879
+RMSE: 159.033729
+R2: 0.976946
+
+*** Cross-Validation Metrics ***
+Supercritical Phase - RMSE (mean): 191.83847244586826
+RMSE (std): 145.16494502858433MAE (mean): 153.32863066245557
+MAE (std): 138.4566642452977R² (mean): -5.265676696636384
+R² (std): 17.316644478604278MSE (mean): 50585.39774301309
+MSE (std): 51794.06278642783>>> Comparison: Supercritical <<<
+
+Metrics for supercritical - Exp x NIST:
+MAPE: 45.0%
+MAE: 3.993444
+MSE: 971.914496
+RMSE: 31.175543
+R2: 0.999044
+
+Metrics for supercritical - Exp x Model:
+MAPE: 56.99999999999999%
+MAE: 155.560749
+MSE: 54204.188093
+RMSE: 232.817929
+R2: 0.946703
+
+Metrics for supercritical - NIST x Model:
+MAPE: 13.0%
+MAE: 152.996083
+MSE: 53229.25673
+RMSE: 230.714665
+R2: 0.94741

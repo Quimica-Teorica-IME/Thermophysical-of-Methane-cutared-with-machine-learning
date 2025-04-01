@@ -1,0 +1,29 @@
+#!/bin/bash
+##
+## Copyright (C) 2009-2021 VersatusHPC, Inc.
+##
+## partition = queue
+#SBATCH --partition=normal
+##
+## nodes = number of nodes
+#SBATCH --nodes=1
+#SBATCH --nodelist=n02
+##
+## ntasks-per-node = number of cores per node
+#SBATCH --ntasks-per-node=64
+##
+## time = execution time
+#SBATCH --time=720:00:00
+##
+## Job name
+#SBATCH --job-name=mu_adaboost_lasso_CVLOO
+##
+
+cd /home/mmaximo/ML/Thermophysical/Viscosity/codes
+
+# Activate Conda and the MachineLearning-env environment
+source ~/.bashrc
+conda init
+conda activate MachineLearning-env
+
+python adaboost_lasso_CVLOO.py > adaboost_lasso_CVLOO.log 2>&1
